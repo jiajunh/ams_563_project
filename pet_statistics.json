@@ -1,0 +1,4052 @@
+[
+  {
+    "file_name": "PETCT_0011f3deaf_10445_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 24.832197189331055
+  },
+  {
+    "file_name": "PETCT_01140d52d8_56839_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 77.35758209228516
+  },
+  {
+    "file_name": "PETCT_0117d7f11f_68547_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 35.1496467590332
+  },
+  {
+    "file_name": "PETCT_0143bab87a_33529_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 52.532867431640625
+  },
+  {
+    "file_name": "PETCT_01682f60c3_03431_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 58.33230209350586
+  },
+  {
+    "file_name": "PETCT_0168f65af8_82224_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 79.40995025634766
+  },
+  {
+    "file_name": "PETCT_0223010e46_25360_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 23.86811065673828
+  },
+  {
+    "file_name": "PETCT_0225325b91_72660_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 25.847009658813477
+  },
+  {
+    "file_name": "PETCT_02ba7e20f5_27172_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 71.84590148925781
+  },
+  {
+    "file_name": "PETCT_0410759456_20805_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 40.94115447998047
+  },
+  {
+    "file_name": "PETCT_0410759456_75415_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 69.00740814208984
+  },
+  {
+    "file_name": "PETCT_048981112f_50330_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 33.680076599121094
+  },
+  {
+    "file_name": "PETCT_04a4e1c874_96019_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 50.28706359863281
+  },
+  {
+    "file_name": "PETCT_05808cf24e_42289_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 28.984378814697266
+  },
+  {
+    "file_name": "PETCT_05808cf24e_91344_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 36.93565368652344
+  },
+  {
+    "file_name": "PETCT_05bed31780_09401_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 78.50663757324219
+  },
+  {
+    "file_name": "PETCT_05d5a79faf_20586_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 125.45557403564453
+  },
+  {
+    "file_name": "PETCT_06a46414eb_38502_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 25.24835968017578
+  },
+  {
+    "file_name": "PETCT_06d55e8295_01782_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 52.591426849365234
+  },
+  {
+    "file_name": "PETCT_06e7c24059_97021_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 55.64093017578125
+  },
+  {
+    "file_name": "PETCT_072833774e_84430_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 146.53416442871094
+  },
+  {
+    "file_name": "PETCT_07574bfa00_91235_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 37.862648010253906
+  },
+  {
+    "file_name": "PETCT_07b7e9abfc_08717_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 111.053466796875
+  },
+  {
+    "file_name": "PETCT_080922db5a_83609_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 70.06925201416016
+  },
+  {
+    "file_name": "PETCT_08212d7f6c_65721_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 51.428077697753906
+  },
+  {
+    "file_name": "PETCT_099b3fd402_84728_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 27.414045333862305
+  },
+  {
+    "file_name": "PETCT_0af7ffe12a_96698_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 74.66661071777344
+  },
+  {
+    "file_name": "PETCT_0b98dbe00d_83616_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 85.84056091308594
+  },
+  {
+    "file_name": "PETCT_0beb67c923_37911_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 103.69011688232422
+  },
+  {
+    "file_name": "PETCT_0cda25453b_47333_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 102.26380157470703
+  },
+  {
+    "file_name": "PETCT_0dbf2c2731_07954_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 26.990928649902344
+  },
+  {
+    "file_name": "PETCT_0e2034240b_08517_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 37.76827621459961
+  },
+  {
+    "file_name": "PETCT_0e9a98ecda_36915_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 54.873626708984375
+  },
+  {
+    "file_name": "PETCT_0ea07b421b_81811_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 127.85612487792969
+  },
+  {
+    "file_name": "PETCT_0f44cec2e6_99224_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 185.0567626953125
+  },
+  {
+    "file_name": "PETCT_0f4ee9e078_08757_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 32.86446762084961
+  },
+  {
+    "file_name": "PETCT_0fa313309d_29055_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 74.25285339355469
+  },
+  {
+    "file_name": "PETCT_0fa313309d_74496_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 33.25385665893555
+  },
+  {
+    "file_name": "PETCT_108c1763d4_86848_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 36.0921516418457
+  },
+  {
+    "file_name": "PETCT_119165872d_05102_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 130.30027770996094
+  },
+  {
+    "file_name": "PETCT_11afab3485_50146_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 50.229854583740234
+  },
+  {
+    "file_name": "PETCT_1253499c80_50242_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 65.8706283569336
+  },
+  {
+    "file_name": "PETCT_1285b86bea_49419_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 94.43555450439453
+  },
+  {
+    "file_name": "PETCT_13b40a817b_46202_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 504.2674255371094
+  },
+  {
+    "file_name": "PETCT_13d0984c93_48750_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 40.74683380126953
+  },
+  {
+    "file_name": "PETCT_13f476b02b_03903_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 42.08124923706055
+  },
+  {
+    "file_name": "PETCT_141fffa2a9_74292_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 742.8070068359375
+  },
+  {
+    "file_name": "PETCT_1472967bef_48645_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 78.4973373413086
+  },
+  {
+    "file_name": "PETCT_147a9fcff3_80653_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 39.77007293701172
+  },
+  {
+    "file_name": "PETCT_14929994cf_47251_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 58.82693099975586
+  },
+  {
+    "file_name": "PETCT_14f931f634_87681_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 21.587310791015625
+  },
+  {
+    "file_name": "PETCT_154e94256c_83128_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 29.000452041625977
+  },
+  {
+    "file_name": "PETCT_15a205ffcc_93089_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 14.465283393859863
+  },
+  {
+    "file_name": "PETCT_15cfa01130_49873_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 58.62273025512695
+  },
+  {
+    "file_name": "PETCT_15f4b7254f_44296_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 67.62876892089844
+  },
+  {
+    "file_name": "PETCT_15f4b7254f_99526_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 57.0969352722168
+  },
+  {
+    "file_name": "PETCT_16cdbc8689_33251_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 41.287445068359375
+  },
+  {
+    "file_name": "PETCT_173b804eda_64205_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 30.99018669128418
+  },
+  {
+    "file_name": "PETCT_176bdc5388_71560_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 21.70661735534668
+  },
+  {
+    "file_name": "PETCT_1774857f8e_33663_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 30.576557159423828
+  },
+  {
+    "file_name": "PETCT_1781ba966c_99061_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 36.333152770996094
+  },
+  {
+    "file_name": "PETCT_17b46d7275_01963_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 28.774944305419922
+  },
+  {
+    "file_name": "PETCT_17d334cb6c_62383_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 90.7177505493164
+  },
+  {
+    "file_name": "PETCT_182bdeba22_88669_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 69.27510833740234
+  },
+  {
+    "file_name": "PETCT_185bac7954_96761_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 58.93613052368164
+  },
+  {
+    "file_name": "PETCT_185da4c8b6_06919_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 30.016616821289062
+  },
+  {
+    "file_name": "PETCT_18e8b02af3_69934_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 21.11471939086914
+  },
+  {
+    "file_name": "PETCT_1928952a0f_40834_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 150.57334899902344
+  },
+  {
+    "file_name": "PETCT_193dea6ac7_95894_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 53.5477180480957
+  },
+  {
+    "file_name": "PETCT_1956667fce_69901_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 60.1938362121582
+  },
+  {
+    "file_name": "PETCT_1956667fce_90464_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 31.77685546875
+  },
+  {
+    "file_name": "PETCT_19838cb8e5_25383_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 59.120418548583984
+  },
+  {
+    "file_name": "PETCT_19b68a666b_01313_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 23.87712287902832
+  },
+  {
+    "file_name": "PETCT_1a1712f7d0_50630_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 29.36675453186035
+  },
+  {
+    "file_name": "PETCT_1a1712f7d0_51804_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 55.74205780029297
+  },
+  {
+    "file_name": "PETCT_1a1712f7d0_78148_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 107.89572143554688
+  },
+  {
+    "file_name": "PETCT_1a8bd52f71_99815_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 42.97676467895508
+  },
+  {
+    "file_name": "PETCT_1a90052cb2_47169_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 38.074581146240234
+  },
+  {
+    "file_name": "PETCT_1a90052cb2_80674_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 106.22981262207031
+  },
+  {
+    "file_name": "PETCT_1b199d094d_32644_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 41.621429443359375
+  },
+  {
+    "file_name": "PETCT_1b1bdfc35b_59300_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 56.079994201660156
+  },
+  {
+    "file_name": "PETCT_1bb48bfb40_90244_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 34.07623291015625
+  },
+  {
+    "file_name": "PETCT_1cb2d26a19_70937_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 21.44831657409668
+  },
+  {
+    "file_name": "PETCT_1e43e3d692_73301_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 31.11457633972168
+  },
+  {
+    "file_name": "PETCT_1f2a4f4280_44694_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 67.03617858886719
+  },
+  {
+    "file_name": "PETCT_1f2a4f4280_46988_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 71.3325424194336
+  },
+  {
+    "file_name": "PETCT_1f65acff65_95034_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 29.53577423095703
+  },
+  {
+    "file_name": "PETCT_1f6b6b0548_05707_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 32.075965881347656
+  },
+  {
+    "file_name": "PETCT_1fa22c576e_16838_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 27.73394012451172
+  },
+  {
+    "file_name": "PETCT_1fc35d02da_36800_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 96.1845474243164
+  },
+  {
+    "file_name": "PETCT_1fcfa34d10_71511_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 59.002323150634766
+  },
+  {
+    "file_name": "PETCT_1fe6e48293_45853_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 58.72578048706055
+  },
+  {
+    "file_name": "PETCT_20995a0fe1_92555_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 51.85261917114258
+  },
+  {
+    "file_name": "PETCT_20a607649d_84908_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 107.77543640136719
+  },
+  {
+    "file_name": "PETCT_20f4a3aa02_72010_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 114.91825103759766
+  },
+  {
+    "file_name": "PETCT_2140db0ca5_11314_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 197.61190795898438
+  },
+  {
+    "file_name": "PETCT_21853fc15b_55807_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 50.98439407348633
+  },
+  {
+    "file_name": "PETCT_21e4ffcb52_72081_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 43.77404022216797
+  },
+  {
+    "file_name": "PETCT_2202a936e0_73351_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 55.972503662109375
+  },
+  {
+    "file_name": "PETCT_22d07bdc49_77260_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 65.13789367675781
+  },
+  {
+    "file_name": "PETCT_234f8427c0_25891_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 76.92034149169922
+  },
+  {
+    "file_name": "PETCT_234f8427c0_49172_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 65.39299011230469
+  },
+  {
+    "file_name": "PETCT_23ed525e82_24219_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 56.62470626831055
+  },
+  {
+    "file_name": "PETCT_2428b44e92_30857_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 50.86558151245117
+  },
+  {
+    "file_name": "PETCT_245182006a_02942_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 63.4354362487793
+  },
+  {
+    "file_name": "PETCT_249c02c01c_65884_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 33.45822525024414
+  },
+  {
+    "file_name": "PETCT_249c02c01c_83154_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 41.20134353637695
+  },
+  {
+    "file_name": "PETCT_249dd35d0c_75049_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 62.4965705871582
+  },
+  {
+    "file_name": "PETCT_24cb79a92b_59029_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 62.44435119628906
+  },
+  {
+    "file_name": "PETCT_25707f94a2_46163_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 26.212251663208008
+  },
+  {
+    "file_name": "PETCT_265c26907a_06968_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 49.457435607910156
+  },
+  {
+    "file_name": "PETCT_2716c9bfff_02459_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 66.32500457763672
+  },
+  {
+    "file_name": "PETCT_2716c9bfff_17239_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 32.648895263671875
+  },
+  {
+    "file_name": "PETCT_2716c9bfff_60667_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 43.422401428222656
+  },
+  {
+    "file_name": "PETCT_2745fb1adb_90513_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 19.190366744995117
+  },
+  {
+    "file_name": "PETCT_274688d0a8_59557_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 80.7059555053711
+  },
+  {
+    "file_name": "PETCT_275fb00a66_27095_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 27.857324600219727
+  },
+  {
+    "file_name": "PETCT_277fc3c67c_80269_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 34.37372589111328
+  },
+  {
+    "file_name": "PETCT_2791a0b3c2_72347_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 27.745723724365234
+  },
+  {
+    "file_name": "PETCT_27ad42f8a9_67664_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 33.73954772949219
+  },
+  {
+    "file_name": "PETCT_27d69a8466_68630_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 167.9757537841797
+  },
+  {
+    "file_name": "PETCT_2922971d0f_78645_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 40.69855880737305
+  },
+  {
+    "file_name": "PETCT_2946d59a94_66800_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 62.1643180847168
+  },
+  {
+    "file_name": "PETCT_29ab45ef17_40288_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 68.89373016357422
+  },
+  {
+    "file_name": "PETCT_29b372cb99_23417_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 34.91183090209961
+  },
+  {
+    "file_name": "PETCT_2a41141775_94391_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 32.34680938720703
+  },
+  {
+    "file_name": "PETCT_2a6f4f0753_21938_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 78.96944427490234
+  },
+  {
+    "file_name": "PETCT_2a78eed085_17302_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 41.77040481567383
+  },
+  {
+    "file_name": "PETCT_2ad62beb52_98926_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 39.930389404296875
+  },
+  {
+    "file_name": "PETCT_2b29531d8c_56534_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 130.15972900390625
+  },
+  {
+    "file_name": "PETCT_2b60c8135a_49696_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 44.36302185058594
+  },
+  {
+    "file_name": "PETCT_2b8064fbe2_34492_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 161.63267517089844
+  },
+  {
+    "file_name": "PETCT_2ce074c2ea_43376_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 34.22049331665039
+  },
+  {
+    "file_name": "PETCT_2d70838805_77347_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 27.61009979248047
+  },
+  {
+    "file_name": "PETCT_2d9638360e_19870_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 26.901168823242188
+  },
+  {
+    "file_name": "PETCT_2dac5ef654_72375_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 45.679832458496094
+  },
+  {
+    "file_name": "PETCT_2dc17aaeaf_40778_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 40.148433685302734
+  },
+  {
+    "file_name": "PETCT_2e44706eaf_03974_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 122.33609771728516
+  },
+  {
+    "file_name": "PETCT_2e97a9e5c2_00442_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 175.56321716308594
+  },
+  {
+    "file_name": "PETCT_2f587d00b1_22169_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 71.0574951171875
+  },
+  {
+    "file_name": "PETCT_2f9aec0275_55211_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 54.44088363647461
+  },
+  {
+    "file_name": "PETCT_2f9aec0275_89491_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 53.68628692626953
+  },
+  {
+    "file_name": "PETCT_302613f9a5_59045_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 30.772647857666016
+  },
+  {
+    "file_name": "PETCT_30287f520f_15029_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 22.22203254699707
+  },
+  {
+    "file_name": "PETCT_3049d4f1a4_94895_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 79.62210845947266
+  },
+  {
+    "file_name": "PETCT_30c4b7062b_73893_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 35.84334182739258
+  },
+  {
+    "file_name": "PETCT_30e2b83b74_04419_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 30.231658935546875
+  },
+  {
+    "file_name": "PETCT_30e2b83b74_81120_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 77.9170913696289
+  },
+  {
+    "file_name": "PETCT_30e2b83b74_85741_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 18.82585906982422
+  },
+  {
+    "file_name": "PETCT_31ddf5013a_04471_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 99.19855499267578
+  },
+  {
+    "file_name": "PETCT_321bba14bc_18724_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 60.81352615356445
+  },
+  {
+    "file_name": "PETCT_32219760da_33621_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 74.81193542480469
+  },
+  {
+    "file_name": "PETCT_323cc5aff8_48314_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 49.29389953613281
+  },
+  {
+    "file_name": "PETCT_32aa845af1_03437_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 90.24622344970703
+  },
+  {
+    "file_name": "PETCT_32aa845af1_95846_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 121.82968139648438
+  },
+  {
+    "file_name": "PETCT_335a00191d_25682_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 118.34880065917969
+  },
+  {
+    "file_name": "PETCT_345b11778a_16793_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 394.26800537109375
+  },
+  {
+    "file_name": "PETCT_3481507253_41462_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 36.37055587768555
+  },
+  {
+    "file_name": "PETCT_34aa521b46_44072_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 73.6781005859375
+  },
+  {
+    "file_name": "PETCT_34d3efa936_73875_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 22.301883697509766
+  },
+  {
+    "file_name": "PETCT_350e91119a_47863_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 57.7708854675293
+  },
+  {
+    "file_name": "PETCT_35c9c85a96_90618_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 26.826486587524414
+  },
+  {
+    "file_name": "PETCT_35c9c85a96_92929_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 51.11109161376953
+  },
+  {
+    "file_name": "PETCT_35de69968e_24640_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 31.92784309387207
+  },
+  {
+    "file_name": "PETCT_36870de2f2_20980_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 26.62267303466797
+  },
+  {
+    "file_name": "PETCT_36d8219e3f_44599_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 50.851051330566406
+  },
+  {
+    "file_name": "PETCT_372746cc99_08738_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 37.296634674072266
+  },
+  {
+    "file_name": "PETCT_37472e737f_10464_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 40.0819091796875
+  },
+  {
+    "file_name": "PETCT_380f71df1e_68308_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 168.66065979003906
+  },
+  {
+    "file_name": "PETCT_38106fde84_54309_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 369.2981262207031
+  },
+  {
+    "file_name": "PETCT_389462c0ac_43274_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 68.13787841796875
+  },
+  {
+    "file_name": "PETCT_389462c0ac_96605_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 63.409664154052734
+  },
+  {
+    "file_name": "PETCT_389462c0ac_97036_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 92.98783111572266
+  },
+  {
+    "file_name": "PETCT_389c968170_04769_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 20.07952117919922
+  },
+  {
+    "file_name": "PETCT_389c968170_57236_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 74.56453704833984
+  },
+  {
+    "file_name": "PETCT_38a374d01a_60625_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 61.569698333740234
+  },
+  {
+    "file_name": "PETCT_39159c05c2_64318_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 131.63966369628906
+  },
+  {
+    "file_name": "PETCT_39eca178a1_91097_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 40.9212760925293
+  },
+  {
+    "file_name": "PETCT_3a40a26443_43565_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 22.494375228881836
+  },
+  {
+    "file_name": "PETCT_3a4be713a1_08041_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 48.7738151550293
+  },
+  {
+    "file_name": "PETCT_3b14690fce_38312_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 56.249473571777344
+  },
+  {
+    "file_name": "PETCT_3b1c9155f5_94971_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 53.46709442138672
+  },
+  {
+    "file_name": "PETCT_3b26172779_21405_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 71.00502014160156
+  },
+  {
+    "file_name": "PETCT_3b2a4af482_86609_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 26.798015594482422
+  },
+  {
+    "file_name": "PETCT_3ba0277c0c_46623_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 105.8061752319336
+  },
+  {
+    "file_name": "PETCT_3bce0eb7aa_45104_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 74.08744812011719
+  },
+  {
+    "file_name": "PETCT_3c3050f75e_31873_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 36.09534454345703
+  },
+  {
+    "file_name": "PETCT_3c3ee87fc6_08758_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 36.773094177246094
+  },
+  {
+    "file_name": "PETCT_3c71e8f518_59350_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 98.76493072509766
+  },
+  {
+    "file_name": "PETCT_3d8b79d739_35511_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 60.90275192260742
+  },
+  {
+    "file_name": "PETCT_3eac8f16d4_53315_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 38.17776107788086
+  },
+  {
+    "file_name": "PETCT_3f2ee0274d_19611_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 46.00835418701172
+  },
+  {
+    "file_name": "PETCT_3f3df20439_26210_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 60.855350494384766
+  },
+  {
+    "file_name": "PETCT_3f5a9f616f_90087_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 57.63426971435547
+  },
+  {
+    "file_name": "PETCT_3fd361ec14_79985_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 116.7376708984375
+  },
+  {
+    "file_name": "PETCT_4011ffe8ae_03025_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 59.928245544433594
+  },
+  {
+    "file_name": "PETCT_402c061122_22953_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 65.49934387207031
+  },
+  {
+    "file_name": "PETCT_402c061122_88656_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 39.18916320800781
+  },
+  {
+    "file_name": "PETCT_404f8c732f_44688_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 48.42838668823242
+  },
+  {
+    "file_name": "PETCT_4076ea9a15_17567_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 46.931610107421875
+  },
+  {
+    "file_name": "PETCT_4095c12e2d_93702_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 40.69050598144531
+  },
+  {
+    "file_name": "PETCT_40a125468a_99283_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 38.400753021240234
+  },
+  {
+    "file_name": "PETCT_40f0749cb7_84242_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 43.545841217041016
+  },
+  {
+    "file_name": "PETCT_411801de5a_89775_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 57.161048889160156
+  },
+  {
+    "file_name": "PETCT_41472f5ce9_95962_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 25.813457489013672
+  },
+  {
+    "file_name": "PETCT_416d3b9b78_17835_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 90.55512237548828
+  },
+  {
+    "file_name": "PETCT_41bd54f97a_02055_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 25.417463302612305
+  },
+  {
+    "file_name": "PETCT_41f4d41517_79881_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 31.929798126220703
+  },
+  {
+    "file_name": "PETCT_424e9b79c5_12121_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 22.87762451171875
+  },
+  {
+    "file_name": "PETCT_4250de48c8_84118_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 51.47522735595703
+  },
+  {
+    "file_name": "PETCT_42e9f16c09_35445_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 31.070024490356445
+  },
+  {
+    "file_name": "PETCT_43323b7d42_89158_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 73.1527328491211
+  },
+  {
+    "file_name": "PETCT_43647ff727_05703_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 26.750720977783203
+  },
+  {
+    "file_name": "PETCT_437d2c96fe_51325_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 51.94292068481445
+  },
+  {
+    "file_name": "PETCT_43c9c71b31_86948_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 16.140399932861328
+  },
+  {
+    "file_name": "PETCT_442a09f90e_24290_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 76.4915771484375
+  },
+  {
+    "file_name": "PETCT_4481687483_68961_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 56.34299850463867
+  },
+  {
+    "file_name": "PETCT_44b08f570e_98707_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 35.386505126953125
+  },
+  {
+    "file_name": "PETCT_44b95650c3_37785_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 234.66790771484375
+  },
+  {
+    "file_name": "PETCT_44bf7dc508_41879_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 47.78160095214844
+  },
+  {
+    "file_name": "PETCT_44cfacfd6e_69456_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 55.03444290161133
+  },
+  {
+    "file_name": "PETCT_44d6ba6772_66477_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 40.96455001831055
+  },
+  {
+    "file_name": "PETCT_456e6f9dc2_82544_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 20.53534507751465
+  },
+  {
+    "file_name": "PETCT_46ee4ddd68_86763_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 84.25730895996094
+  },
+  {
+    "file_name": "PETCT_474d7af918_66154_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 41.46391677856445
+  },
+  {
+    "file_name": "PETCT_4760c0139a_28262_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 22.73748016357422
+  },
+  {
+    "file_name": "PETCT_4776e75543_74749_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 116.9468765258789
+  },
+  {
+    "file_name": "PETCT_4785066413_27776_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 39.53953552246094
+  },
+  {
+    "file_name": "PETCT_47f4460050_39942_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 68.85403442382812
+  },
+  {
+    "file_name": "PETCT_4848bebb10_17214_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 121.3978042602539
+  },
+  {
+    "file_name": "PETCT_48a34ccdf0_78651_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 33.519718170166016
+  },
+  {
+    "file_name": "PETCT_48cb8662f7_71496_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 37.77670669555664
+  },
+  {
+    "file_name": "PETCT_48d5467561_13285_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 26.80801773071289
+  },
+  {
+    "file_name": "PETCT_48d5467561_70383_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 38.25749969482422
+  },
+  {
+    "file_name": "PETCT_49479d6e64_40984_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 64.03626251220703
+  },
+  {
+    "file_name": "PETCT_49f3d297b0_42325_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 67.98209381103516
+  },
+  {
+    "file_name": "PETCT_4a255db7bd_52913_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 50.41765213012695
+  },
+  {
+    "file_name": "PETCT_4a72eeb991_76289_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 28.10384178161621
+  },
+  {
+    "file_name": "PETCT_4b688f46b0_34892_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 27.59684181213379
+  },
+  {
+    "file_name": "PETCT_4bab91dccd_29572_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 26.489866256713867
+  },
+  {
+    "file_name": "PETCT_4be28f9cd7_10797_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 92.21646118164062
+  },
+  {
+    "file_name": "PETCT_4c75fa4a5d_33664_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 129.96566772460938
+  },
+  {
+    "file_name": "PETCT_4c9e7be363_90419_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 52.09270477294922
+  },
+  {
+    "file_name": "PETCT_4cb875dc0b_53555_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 34.62228012084961
+  },
+  {
+    "file_name": "PETCT_4cc808d16f_36881_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 170.50521850585938
+  },
+  {
+    "file_name": "PETCT_4d7b745a7b_29523_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 78.39222717285156
+  },
+  {
+    "file_name": "PETCT_4dcf62f869_52454_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 54.2742805480957
+  },
+  {
+    "file_name": "PETCT_4e3d83bfe3_11805_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 53.0138053894043
+  },
+  {
+    "file_name": "PETCT_4ea806706c_87631_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 46.04951095581055
+  },
+  {
+    "file_name": "PETCT_4ef69de4e1_18049_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 42.38446807861328
+  },
+  {
+    "file_name": "PETCT_4f7a8f41c0_67950_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 99.71067810058594
+  },
+  {
+    "file_name": "PETCT_4fb1817df3_07366_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 78.93912506103516
+  },
+  {
+    "file_name": "PETCT_5001354a69_67929_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 53.60585021972656
+  },
+  {
+    "file_name": "PETCT_5060603ba4_36416_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 526.0403442382812
+  },
+  {
+    "file_name": "PETCT_5109748328_85229_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 119.77299499511719
+  },
+  {
+    "file_name": "PETCT_510fb36781_07563_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 52.36442565917969
+  },
+  {
+    "file_name": "PETCT_515c40c4a6_06231_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 30.674819946289062
+  },
+  {
+    "file_name": "PETCT_5255c79083_36339_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 37.01522445678711
+  },
+  {
+    "file_name": "PETCT_527c5afc5d_02474_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 34.27084732055664
+  },
+  {
+    "file_name": "PETCT_52f84711a5_59163_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 27.350690841674805
+  },
+  {
+    "file_name": "PETCT_53a0610615_95772_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 37.713199615478516
+  },
+  {
+    "file_name": "PETCT_53ccb9efbb_33641_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 32.74591827392578
+  },
+  {
+    "file_name": "PETCT_53dad1785b_08525_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 64.51507568359375
+  },
+  {
+    "file_name": "PETCT_5420205a5f_99033_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 27.619543075561523
+  },
+  {
+    "file_name": "PETCT_544676de40_44814_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 35.84882736206055
+  },
+  {
+    "file_name": "PETCT_544676de40_57333_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 32.83020782470703
+  },
+  {
+    "file_name": "PETCT_544676de40_95400_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 40.54008865356445
+  },
+  {
+    "file_name": "PETCT_548213edf7_05001_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 25.743122100830078
+  },
+  {
+    "file_name": "PETCT_54bed1d98f_15731_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 105.28346252441406
+  },
+  {
+    "file_name": "PETCT_556b56485a_83019_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 74.12480163574219
+  },
+  {
+    "file_name": "PETCT_55819a54c2_69186_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 36.04832458496094
+  },
+  {
+    "file_name": "PETCT_55ae7986e1_11736_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 50.00364303588867
+  },
+  {
+    "file_name": "PETCT_55ca11402a_30298_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 86.2426528930664
+  },
+  {
+    "file_name": "PETCT_55d55902c6_26216_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 32.70528793334961
+  },
+  {
+    "file_name": "PETCT_55e3e62722_09791_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 69.69480895996094
+  },
+  {
+    "file_name": "PETCT_562294be56_29285_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 73.2737808227539
+  },
+  {
+    "file_name": "PETCT_562294be56_66544_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 52.8594856262207
+  },
+  {
+    "file_name": "PETCT_562294be56_92374_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 203.68572998046875
+  },
+  {
+    "file_name": "PETCT_57c05962c1_07341_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 24.262426376342773
+  },
+  {
+    "file_name": "PETCT_581fa95eb0_73563_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 29.124990463256836
+  },
+  {
+    "file_name": "PETCT_58f276897e_96129_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 33.10795974731445
+  },
+  {
+    "file_name": "PETCT_591b3025ff_80221_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 44.70130920410156
+  },
+  {
+    "file_name": "PETCT_59309d6625_38456_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 24.346084594726562
+  },
+  {
+    "file_name": "PETCT_5951afb86e_68179_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 32.138519287109375
+  },
+  {
+    "file_name": "PETCT_595975bc57_47727_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 38.18815231323242
+  },
+  {
+    "file_name": "PETCT_59e6d1de22_59516_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 34.87642288208008
+  },
+  {
+    "file_name": "PETCT_5a274a0f26_16422_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 54.60361099243164
+  },
+  {
+    "file_name": "PETCT_5a58935b68_24073_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 45.72187042236328
+  },
+  {
+    "file_name": "PETCT_5ac322455f_53199_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 53.05901336669922
+  },
+  {
+    "file_name": "PETCT_5b10c3f524_40542_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 64.47254180908203
+  },
+  {
+    "file_name": "PETCT_5bd311a5e9_27550_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 44.7573356628418
+  },
+  {
+    "file_name": "PETCT_5c1baad5d8_62219_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 17.546323776245117
+  },
+  {
+    "file_name": "PETCT_5c55b3087d_76223_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 245.08114624023438
+  },
+  {
+    "file_name": "PETCT_5c57a98a43_15963_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 33.42127990722656
+  },
+  {
+    "file_name": "PETCT_5cf118ac06_95778_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 61.32954025268555
+  },
+  {
+    "file_name": "PETCT_5d10be5b89_53829_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 37.14613723754883
+  },
+  {
+    "file_name": "PETCT_5d553bf6b4_78907_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 42.986610412597656
+  },
+  {
+    "file_name": "PETCT_5d6bf1e75f_70028_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 25.281726837158203
+  },
+  {
+    "file_name": "PETCT_5d994c3f44_80237_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 54.764949798583984
+  },
+  {
+    "file_name": "PETCT_5de3ac617a_12499_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 34.01409912109375
+  },
+  {
+    "file_name": "PETCT_5e0bc6cdda_75350_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 69.48582458496094
+  },
+  {
+    "file_name": "PETCT_5e2da717db_20485_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 71.68181610107422
+  },
+  {
+    "file_name": "PETCT_5e81863014_56073_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 59.253360748291016
+  },
+  {
+    "file_name": "PETCT_5e8b013935_57206_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 69.55107116699219
+  },
+  {
+    "file_name": "PETCT_5ef99b0b6b_44649_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 44.884769439697266
+  },
+  {
+    "file_name": "PETCT_5f569fb737_70669_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 183.33685302734375
+  },
+  {
+    "file_name": "PETCT_5fa9d9a820_36159_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 48.66373062133789
+  },
+  {
+    "file_name": "PETCT_5fa9d9a820_75551_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 42.751712799072266
+  },
+  {
+    "file_name": "PETCT_5fa9d9a820_75918_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 59.95070266723633
+  },
+  {
+    "file_name": "PETCT_5fa9d9a820_86237_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 160.4345703125
+  },
+  {
+    "file_name": "PETCT_6016a6c3af_97119_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 31.698627471923828
+  },
+  {
+    "file_name": "PETCT_60baa6979c_94215_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 44.5615234375
+  },
+  {
+    "file_name": "PETCT_61348439bf_57273_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 90.33275604248047
+  },
+  {
+    "file_name": "PETCT_61663450f8_08282_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 29.34351921081543
+  },
+  {
+    "file_name": "PETCT_6170317f2e_94274_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 82.48534393310547
+  },
+  {
+    "file_name": "PETCT_61d5bc58fc_13784_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 38.8287353515625
+  },
+  {
+    "file_name": "PETCT_61d5bc58fc_78550_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 29.36009407043457
+  },
+  {
+    "file_name": "PETCT_61d5bc58fc_82410_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 39.37632369995117
+  },
+  {
+    "file_name": "PETCT_61d5bc58fc_90966_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 33.89799499511719
+  },
+  {
+    "file_name": "PETCT_62011ff15b_31211_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 56.76042938232422
+  },
+  {
+    "file_name": "PETCT_62405d117c_26235_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 62.983768463134766
+  },
+  {
+    "file_name": "PETCT_62a78a061f_87956_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 32.62627029418945
+  },
+  {
+    "file_name": "PETCT_62b114e09b_71302_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 36.717063903808594
+  },
+  {
+    "file_name": "PETCT_62b114e09b_80184_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 40.91044998168945
+  },
+  {
+    "file_name": "PETCT_631b419cef_73635_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 136.33157348632812
+  },
+  {
+    "file_name": "PETCT_63464433c8_02056_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 24.958646774291992
+  },
+  {
+    "file_name": "PETCT_63508c679d_71545_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 39.83097457885742
+  },
+  {
+    "file_name": "PETCT_63508c679d_75693_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 16.255088806152344
+  },
+  {
+    "file_name": "PETCT_63dd9503eb_34683_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 70.42599487304688
+  },
+  {
+    "file_name": "PETCT_644d80e987_86028_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 26.41506576538086
+  },
+  {
+    "file_name": "PETCT_64909533c5_98015_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 111.10977172851562
+  },
+  {
+    "file_name": "PETCT_64aff75516_66236_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 37.07459259033203
+  },
+  {
+    "file_name": "PETCT_64aff75516_95123_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 27.532167434692383
+  },
+  {
+    "file_name": "PETCT_65a1330e90_34748_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 47.055667877197266
+  },
+  {
+    "file_name": "PETCT_65bd1a4c38_59426_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 36.608306884765625
+  },
+  {
+    "file_name": "PETCT_6604b228c6_29934_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 28.558046340942383
+  },
+  {
+    "file_name": "PETCT_674c49778c_47501_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 30.104909896850586
+  },
+  {
+    "file_name": "PETCT_685d7c09b5_22883_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 32.79292678833008
+  },
+  {
+    "file_name": "PETCT_68a7ade33c_05114_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 101.74748229980469
+  },
+  {
+    "file_name": "PETCT_68ef307665_38550_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 91.87916564941406
+  },
+  {
+    "file_name": "PETCT_68f73c4518_36034_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 77.19756317138672
+  },
+  {
+    "file_name": "PETCT_69606f6a25_06412_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 31.170270919799805
+  },
+  {
+    "file_name": "PETCT_69aa8dbfd2_05834_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 33.02155685424805
+  },
+  {
+    "file_name": "PETCT_69ee62b035_42071_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 44.60943603515625
+  },
+  {
+    "file_name": "PETCT_6a3477cd9a_52826_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 199.79673767089844
+  },
+  {
+    "file_name": "PETCT_6aea5c3a03_48586_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 59.68098449707031
+  },
+  {
+    "file_name": "PETCT_6b177a3c28_89194_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 45.970218658447266
+  },
+  {
+    "file_name": "PETCT_6c23f2686d_36051_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 312.9144287109375
+  },
+  {
+    "file_name": "PETCT_6c469107a0_84161_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 66.07171630859375
+  },
+  {
+    "file_name": "PETCT_6c660140ca_39365_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 25.101125717163086
+  },
+  {
+    "file_name": "PETCT_6d62e15c29_49711_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 75.46339416503906
+  },
+  {
+    "file_name": "PETCT_6d62e15c29_72408_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 58.51504135131836
+  },
+  {
+    "file_name": "PETCT_6d6a193655_45963_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 40.45127487182617
+  },
+  {
+    "file_name": "PETCT_6e1dba94e8_36676_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 30.838014602661133
+  },
+  {
+    "file_name": "PETCT_6e7c7f8087_20555_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 36.968223571777344
+  },
+  {
+    "file_name": "PETCT_6efefcb92a_24165_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 21.25444221496582
+  },
+  {
+    "file_name": "PETCT_6fe855c937_74146_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 52.561893463134766
+  },
+  {
+    "file_name": "PETCT_7094acd4c0_28070_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 90.10418701171875
+  },
+  {
+    "file_name": "PETCT_7147385005_92807_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 151.66177368164062
+  },
+  {
+    "file_name": "PETCT_71ac560ffe_20185_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 29.58151626586914
+  },
+  {
+    "file_name": "PETCT_71ae114917_89747_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 70.23717498779297
+  },
+  {
+    "file_name": "PETCT_7255ccbcf4_75929_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 45.0111198425293
+  },
+  {
+    "file_name": "PETCT_72d2d6de52_55761_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 24.044034957885742
+  },
+  {
+    "file_name": "PETCT_7323c415d0_21910_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 72.51790618896484
+  },
+  {
+    "file_name": "PETCT_73597f33fe_62514_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 79.98587036132812
+  },
+  {
+    "file_name": "PETCT_73597f33fe_77540_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 78.6097183227539
+  },
+  {
+    "file_name": "PETCT_7365362464_59710_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 29.943422317504883
+  },
+  {
+    "file_name": "PETCT_742a9413db_67094_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 42.078311920166016
+  },
+  {
+    "file_name": "PETCT_74bbceaeeb_94697_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 43.249229431152344
+  },
+  {
+    "file_name": "PETCT_75046e0c12_48249_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 76.73534393310547
+  },
+  {
+    "file_name": "PETCT_75d1080946_72389_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 170.31752014160156
+  },
+  {
+    "file_name": "PETCT_75d5e740f0_73333_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 39.61433792114258
+  },
+  {
+    "file_name": "PETCT_75e42ff05f_21375_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 87.47657775878906
+  },
+  {
+    "file_name": "PETCT_760c77b289_00579_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 102.47272491455078
+  },
+  {
+    "file_name": "PETCT_76ebd5c736_09310_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 32.711936950683594
+  },
+  {
+    "file_name": "PETCT_770ee48d09_58868_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 39.45280838012695
+  },
+  {
+    "file_name": "PETCT_777fa0ba88_03413_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 51.48062515258789
+  },
+  {
+    "file_name": "PETCT_777fa0ba88_31863_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 33.34846115112305
+  },
+  {
+    "file_name": "PETCT_7785c10e91_36884_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 23.18083953857422
+  },
+  {
+    "file_name": "PETCT_77bceab232_21240_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 50.22651672363281
+  },
+  {
+    "file_name": "PETCT_78355d1d4f_63813_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 89.83634948730469
+  },
+  {
+    "file_name": "PETCT_78b89bc739_17334_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 151.67384338378906
+  },
+  {
+    "file_name": "PETCT_790246c76c_97446_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 68.00655364990234
+  },
+  {
+    "file_name": "PETCT_791ec15924_50308_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 55.68971252441406
+  },
+  {
+    "file_name": "PETCT_792d7b6ad0_71581_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 20.025876998901367
+  },
+  {
+    "file_name": "PETCT_7958ce0f7c_85489_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 68.45564270019531
+  },
+  {
+    "file_name": "PETCT_7a262070a9_58120_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 29.644474029541016
+  },
+  {
+    "file_name": "PETCT_7a77b26403_54468_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 79.78096008300781
+  },
+  {
+    "file_name": "PETCT_7abe274c10_21377_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 25.448162078857422
+  },
+  {
+    "file_name": "PETCT_7b9d625330_75418_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 241.41366577148438
+  },
+  {
+    "file_name": "PETCT_7c1e6175e0_42498_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 28.197874069213867
+  },
+  {
+    "file_name": "PETCT_7c96c4626d_22056_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 34.986942291259766
+  },
+  {
+    "file_name": "PETCT_7ce196485f_67152_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 34.7076416015625
+  },
+  {
+    "file_name": "PETCT_7cfd708a53_72140_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 190.4123992919922
+  },
+  {
+    "file_name": "PETCT_7d01eb835d_36135_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 48.65260314941406
+  },
+  {
+    "file_name": "PETCT_7d8aa1e94d_89111_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 42.46732711791992
+  },
+  {
+    "file_name": "PETCT_7d97f7a102_22679_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 47.65604782104492
+  },
+  {
+    "file_name": "PETCT_7e56b0b62c_57089_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 31.573740005493164
+  },
+  {
+    "file_name": "PETCT_7e5729ea40_35422_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 120.10845947265625
+  },
+  {
+    "file_name": "PETCT_7ed037687a_34568_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 55.38982009887695
+  },
+  {
+    "file_name": "PETCT_7ee7610b9e_58977_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 139.2064971923828
+  },
+  {
+    "file_name": "PETCT_7ef5343426_51720_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 105.21614074707031
+  },
+  {
+    "file_name": "PETCT_7f2a604e03_38994_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 87.66646575927734
+  },
+  {
+    "file_name": "PETCT_7faf36a152_16783_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 46.86631393432617
+  },
+  {
+    "file_name": "PETCT_7faf36a152_26480_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 34.535606384277344
+  },
+  {
+    "file_name": "PETCT_802f19931c_43581_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 73.18949127197266
+  },
+  {
+    "file_name": "PETCT_80b8393c44_92543_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 32.83872604370117
+  },
+  {
+    "file_name": "PETCT_80d7e682f7_04329_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 75.67606353759766
+  },
+  {
+    "file_name": "PETCT_80f21e1ed0_60752_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 25.956375122070312
+  },
+  {
+    "file_name": "PETCT_816732638d_40823_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 191.47508239746094
+  },
+  {
+    "file_name": "PETCT_82137245b0_20547_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 27.5653133392334
+  },
+  {
+    "file_name": "PETCT_824c6a0014_51928_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 39.17966079711914
+  },
+  {
+    "file_name": "PETCT_8311aeddb9_31618_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 42.70818328857422
+  },
+  {
+    "file_name": "PETCT_8311aeddb9_57155_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 84.1775131225586
+  },
+  {
+    "file_name": "PETCT_83e4c5b578_45776_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 23.023006439208984
+  },
+  {
+    "file_name": "PETCT_84e7715ed9_97526_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 2415.15673828125
+  },
+  {
+    "file_name": "PETCT_85b69fed1c_08512_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 33.81180953979492
+  },
+  {
+    "file_name": "PETCT_86153b2974_13514_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 342.3327331542969
+  },
+  {
+    "file_name": "PETCT_86153b2974_66144_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 34.548038482666016
+  },
+  {
+    "file_name": "PETCT_86153b2974_72845_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 161.09877014160156
+  },
+  {
+    "file_name": "PETCT_86153b2974_79492_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 40.81605529785156
+  },
+  {
+    "file_name": "PETCT_86153b2974_83783_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 62.91610336303711
+  },
+  {
+    "file_name": "PETCT_870181d7fd_80978_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 71.43067169189453
+  },
+  {
+    "file_name": "PETCT_87afc291ec_60370_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 53.20047378540039
+  },
+  {
+    "file_name": "PETCT_87afc291ec_76998_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 22.180776596069336
+  },
+  {
+    "file_name": "PETCT_8838c53a63_35455_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 23.667198181152344
+  },
+  {
+    "file_name": "PETCT_88bcc970b3_41395_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 61.0096549987793
+  },
+  {
+    "file_name": "PETCT_89065bc4ab_11843_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 43.61297607421875
+  },
+  {
+    "file_name": "PETCT_89fb723947_88227_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 41.970027923583984
+  },
+  {
+    "file_name": "PETCT_8a52353a72_13495_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 32.42041015625
+  },
+  {
+    "file_name": "PETCT_8aa48809ea_27681_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 43.33154296875
+  },
+  {
+    "file_name": "PETCT_8af3757198_86910_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 27.937297821044922
+  },
+  {
+    "file_name": "PETCT_8b14e6a819_76427_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 38.30223083496094
+  },
+  {
+    "file_name": "PETCT_8b40e356dc_04076_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 27.999706268310547
+  },
+  {
+    "file_name": "PETCT_8b714a64e7_38953_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 31.844772338867188
+  },
+  {
+    "file_name": "PETCT_8b74860ce6_00433_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 54.25688552856445
+  },
+  {
+    "file_name": "PETCT_8bebb676bf_96920_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 48.00115203857422
+  },
+  {
+    "file_name": "PETCT_8bf08c9a42_26861_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 224.07235717773438
+  },
+  {
+    "file_name": "PETCT_8c5d99b459_16657_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 24.15814208984375
+  },
+  {
+    "file_name": "PETCT_8c8cd2699c_44294_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 56.413089752197266
+  },
+  {
+    "file_name": "PETCT_8de6953d23_85501_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 94.16979217529297
+  },
+  {
+    "file_name": "PETCT_8e905366fe_77912_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 38.44412612915039
+  },
+  {
+    "file_name": "PETCT_8eb3998417_37591_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 332.32427978515625
+  },
+  {
+    "file_name": "PETCT_8ec13728df_64354_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 29.61533546447754
+  },
+  {
+    "file_name": "PETCT_8f2878df50_45456_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 41.71991729736328
+  },
+  {
+    "file_name": "PETCT_8f2878df50_89268_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 60.7503547668457
+  },
+  {
+    "file_name": "PETCT_8fea5f0537_33574_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 53.18220138549805
+  },
+  {
+    "file_name": "PETCT_901573a747_32417_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 70.75157928466797
+  },
+  {
+    "file_name": "PETCT_91cfa804b0_30574_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 74.70430755615234
+  },
+  {
+    "file_name": "PETCT_92c5c944a5_02737_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 85.16812896728516
+  },
+  {
+    "file_name": "PETCT_93bea242d1_35614_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 97.2269058227539
+  },
+  {
+    "file_name": "PETCT_94962fe878_57422_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 37.82965087890625
+  },
+  {
+    "file_name": "PETCT_94986389d4_46343_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 58.18540573120117
+  },
+  {
+    "file_name": "PETCT_9521502dbb_42207_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 21.488815307617188
+  },
+  {
+    "file_name": "PETCT_95efdaba3c_59531_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 62.05488586425781
+  },
+  {
+    "file_name": "PETCT_963a71819a_09823_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 44.608638763427734
+  },
+  {
+    "file_name": "PETCT_96e7a3ab28_34864_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 34.52064895629883
+  },
+  {
+    "file_name": "PETCT_97320b0b58_10200_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 36.49650955200195
+  },
+  {
+    "file_name": "PETCT_97320b0b58_33245_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 52.32014083862305
+  },
+  {
+    "file_name": "PETCT_9775598501_41170_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 37.50879669189453
+  },
+  {
+    "file_name": "PETCT_978c395243_90116_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 49.03166961669922
+  },
+  {
+    "file_name": "PETCT_979f9c3dba_59545_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 44.89615249633789
+  },
+  {
+    "file_name": "PETCT_983a76fd43_70379_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 50.70243835449219
+  },
+  {
+    "file_name": "PETCT_9860ffe82d_95403_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 47.204280853271484
+  },
+  {
+    "file_name": "PETCT_98c6af8b90_21188_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 52.99290466308594
+  },
+  {
+    "file_name": "PETCT_98cd91d44e_87006_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 24.48027801513672
+  },
+  {
+    "file_name": "PETCT_9902caa7ec_17819_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 141.0892333984375
+  },
+  {
+    "file_name": "PETCT_993d40ea7e_79346_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 18.132774353027344
+  },
+  {
+    "file_name": "PETCT_997d4ef9a7_14519_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 50.59407043457031
+  },
+  {
+    "file_name": "PETCT_99a7bfad23_87293_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 72.51238250732422
+  },
+  {
+    "file_name": "PETCT_99e5728030_06580_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 29.166555404663086
+  },
+  {
+    "file_name": "PETCT_9a2bfe901f_57085_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 44.87682342529297
+  },
+  {
+    "file_name": "PETCT_9a2c6e618a_05254_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 35.817466735839844
+  },
+  {
+    "file_name": "PETCT_9a418f3b3a_28692_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 58.01739501953125
+  },
+  {
+    "file_name": "PETCT_9a583160ea_74768_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 43.120914459228516
+  },
+  {
+    "file_name": "PETCT_9a66a81ad1_04122_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 44.27213668823242
+  },
+  {
+    "file_name": "PETCT_9a66a81ad1_42006_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 58.387115478515625
+  },
+  {
+    "file_name": "PETCT_9a66a81ad1_71418_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 55.068031311035156
+  },
+  {
+    "file_name": "PETCT_9a66a81ad1_84406_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 38.77418899536133
+  },
+  {
+    "file_name": "PETCT_9a83943958_73758_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 44.058250427246094
+  },
+  {
+    "file_name": "PETCT_9ad7dffae6_96349_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 123.91928100585938
+  },
+  {
+    "file_name": "PETCT_9afd440677_70730_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 83.30561828613281
+  },
+  {
+    "file_name": "PETCT_9b53627d23_98837_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 25.155258178710938
+  },
+  {
+    "file_name": "PETCT_9c36b318e8_91815_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 32.92422866821289
+  },
+  {
+    "file_name": "PETCT_9c8842d12e_69216_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 88.04547882080078
+  },
+  {
+    "file_name": "PETCT_9c9a347388_73640_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 130.26353454589844
+  },
+  {
+    "file_name": "PETCT_9d6699f215_75688_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 52.578285217285156
+  },
+  {
+    "file_name": "PETCT_9d6e9223cc_30924_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 93.27908325195312
+  },
+  {
+    "file_name": "PETCT_9d97ac5d4d_99586_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 66.99845123291016
+  },
+  {
+    "file_name": "PETCT_9da159b835_29121_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 189.50770568847656
+  },
+  {
+    "file_name": "PETCT_9e864bb710_82476_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 76.94120788574219
+  },
+  {
+    "file_name": "PETCT_9f491f1481_19458_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 35.219242095947266
+  },
+  {
+    "file_name": "PETCT_9f6e8b1b43_64835_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 37.93729782104492
+  },
+  {
+    "file_name": "PETCT_9f7c68f5ca_99932_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 27.009536743164062
+  },
+  {
+    "file_name": "PETCT_a09210d96b_41079_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 39.94346618652344
+  },
+  {
+    "file_name": "PETCT_a19c2a0c65_55038_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 31.83793067932129
+  },
+  {
+    "file_name": "PETCT_a19ef8e0d2_80792_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 51.40220642089844
+  },
+  {
+    "file_name": "PETCT_a1bc00ad60_67040_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 47.076663970947266
+  },
+  {
+    "file_name": "PETCT_a1bc00ad60_94184_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 191.5496063232422
+  },
+  {
+    "file_name": "PETCT_a1d93ebc74_67659_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 26.461986541748047
+  },
+  {
+    "file_name": "PETCT_a1db71e797_62987_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 119.6908950805664
+  },
+  {
+    "file_name": "PETCT_a21200dcba_40542_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 61.81913375854492
+  },
+  {
+    "file_name": "PETCT_a22ec7f62b_42389_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 34.468868255615234
+  },
+  {
+    "file_name": "PETCT_a25083ff81_20379_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 38.305721282958984
+  },
+  {
+    "file_name": "PETCT_a2676f03c0_90793_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 58.23288345336914
+  },
+  {
+    "file_name": "PETCT_a37b4bca43_47963_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 46.676902770996094
+  },
+  {
+    "file_name": "PETCT_a37c4e231f_39859_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 63.933109283447266
+  },
+  {
+    "file_name": "PETCT_a37da9e85d_84920_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 36.019100189208984
+  },
+  {
+    "file_name": "PETCT_a3ce52b2a8_28693_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 125.00528717041016
+  },
+  {
+    "file_name": "PETCT_a3ce52b2a8_48149_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 44.807769775390625
+  },
+  {
+    "file_name": "PETCT_a3df01d3a3_66224_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 138.20095825195312
+  },
+  {
+    "file_name": "PETCT_a41d59682f_76863_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 89.03143310546875
+  },
+  {
+    "file_name": "PETCT_a471649d35_07385_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 59.87275314331055
+  },
+  {
+    "file_name": "PETCT_a4a66c4fa7_13569_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 29.58180046081543
+  },
+  {
+    "file_name": "PETCT_a4cb97ffc7_47854_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 54.65670394897461
+  },
+  {
+    "file_name": "PETCT_a4ccc397a9_22361_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 51.892459869384766
+  },
+  {
+    "file_name": "PETCT_a57bd6b006_13048_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 53.41838836669922
+  },
+  {
+    "file_name": "PETCT_a627fc68a1_74771_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 138.89288330078125
+  },
+  {
+    "file_name": "PETCT_a7b323b3fd_97322_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 160.5034942626953
+  },
+  {
+    "file_name": "PETCT_a82f03863a_75117_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 57.854766845703125
+  },
+  {
+    "file_name": "PETCT_a86b3fad40_17795_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 49.66368103027344
+  },
+  {
+    "file_name": "PETCT_a87dda9193_56863_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 48.825157165527344
+  },
+  {
+    "file_name": "PETCT_a8a5e96821_49352_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 25.35012435913086
+  },
+  {
+    "file_name": "PETCT_a8a5e96821_81737_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 42.36040115356445
+  },
+  {
+    "file_name": "PETCT_a90955352e_28986_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 33.102699279785156
+  },
+  {
+    "file_name": "PETCT_a933c9af60_00786_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 59.38398742675781
+  },
+  {
+    "file_name": "PETCT_aaf2c3aa12_42067_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 60.04945373535156
+  },
+  {
+    "file_name": "PETCT_ac11b344b6_98064_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 41.49427032470703
+  },
+  {
+    "file_name": "PETCT_ac700ab4db_73358_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 52.476898193359375
+  },
+  {
+    "file_name": "PETCT_ac75e49284_83508_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 42.80533981323242
+  },
+  {
+    "file_name": "PETCT_ad7c6a4a58_00777_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 51.937217712402344
+  },
+  {
+    "file_name": "PETCT_ad7cd4a9d2_67897_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 116.84455871582031
+  },
+  {
+    "file_name": "PETCT_adc49adb3d_59119_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 50.42109298706055
+  },
+  {
+    "file_name": "PETCT_ae3074834a_46217_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 40.449642181396484
+  },
+  {
+    "file_name": "PETCT_ae46202abb_77748_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 29.87911033630371
+  },
+  {
+    "file_name": "PETCT_ae4dcc5dd3_60181_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 34.00265121459961
+  },
+  {
+    "file_name": "PETCT_ae6a37a9d6_18818_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 43.14679718017578
+  },
+  {
+    "file_name": "PETCT_ae6a37a9d6_25113_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 86.18541717529297
+  },
+  {
+    "file_name": "PETCT_ae6a37a9d6_52902_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 80.08885192871094
+  },
+  {
+    "file_name": "PETCT_ae6a37a9d6_80520_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 98.54467010498047
+  },
+  {
+    "file_name": "PETCT_ae6a37a9d6_87760_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 53.6652717590332
+  },
+  {
+    "file_name": "PETCT_ae8c77a995_79472_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 121.15550231933594
+  },
+  {
+    "file_name": "PETCT_ae96f738c0_60169_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 56.8227653503418
+  },
+  {
+    "file_name": "PETCT_ae96f738c0_67749_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 48.397483825683594
+  },
+  {
+    "file_name": "PETCT_aea7906fd2_08307_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 45.78612518310547
+  },
+  {
+    "file_name": "PETCT_aee7d68f86_24870_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 46.20795440673828
+  },
+  {
+    "file_name": "PETCT_af547fa618_11358_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 85.06916046142578
+  },
+  {
+    "file_name": "PETCT_af73b85f2c_19562_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 42.81352233886719
+  },
+  {
+    "file_name": "PETCT_b04be2846e_99019_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 106.62692260742188
+  },
+  {
+    "file_name": "PETCT_b1219c408b_34572_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 281.3401184082031
+  },
+  {
+    "file_name": "PETCT_b1aa7ce13e_97882_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 36.481056213378906
+  },
+  {
+    "file_name": "PETCT_b1d6679284_34541_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 101.30945587158203
+  },
+  {
+    "file_name": "PETCT_b1de3d4248_61599_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 99.53231811523438
+  },
+  {
+    "file_name": "PETCT_b2f82ed4b9_06609_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 54.338130950927734
+  },
+  {
+    "file_name": "PETCT_b2f82ed4b9_26753_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 74.93773651123047
+  },
+  {
+    "file_name": "PETCT_b327726c24_56109_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 29.063016891479492
+  },
+  {
+    "file_name": "PETCT_b3d4773f85_03046_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 80.48389434814453
+  },
+  {
+    "file_name": "PETCT_b3e923029c_64843_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 81.682861328125
+  },
+  {
+    "file_name": "PETCT_b3e923029c_84735_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 84.67008209228516
+  },
+  {
+    "file_name": "PETCT_b41bc7c1e5_18795_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 52.32730484008789
+  },
+  {
+    "file_name": "PETCT_b41bc7c1e5_19480_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 36.23674774169922
+  },
+  {
+    "file_name": "PETCT_b41bc7c1e5_32035_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 40.307010650634766
+  },
+  {
+    "file_name": "PETCT_b4247b8ecd_38148_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 26.545238494873047
+  },
+  {
+    "file_name": "PETCT_b4247b8ecd_57904_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 38.25300216674805
+  },
+  {
+    "file_name": "PETCT_b42adab18e_60746_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 17.49994659423828
+  },
+  {
+    "file_name": "PETCT_b4e5c1047c_42556_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 178.56192016601562
+  },
+  {
+    "file_name": "PETCT_b510436d83_03941_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 18.782073974609375
+  },
+  {
+    "file_name": "PETCT_b510436d83_35292_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 62.84901809692383
+  },
+  {
+    "file_name": "PETCT_b52920038c_50621_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 49.02531433105469
+  },
+  {
+    "file_name": "PETCT_b53ba7c6bf_57637_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 107.77473449707031
+  },
+  {
+    "file_name": "PETCT_b57e1c1f5f_85239_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 32.02239227294922
+  },
+  {
+    "file_name": "PETCT_b5923963ac_32609_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 26.087860107421875
+  },
+  {
+    "file_name": "PETCT_b5923963ac_59935_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 184.64976501464844
+  },
+  {
+    "file_name": "PETCT_b621742469_74522_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 146.28482055664062
+  },
+  {
+    "file_name": "PETCT_b62864161e_41034_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 96.82994842529297
+  },
+  {
+    "file_name": "PETCT_b66ba83594_23908_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 81.39464569091797
+  },
+  {
+    "file_name": "PETCT_b6a3c72db6_50469_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 97.37555694580078
+  },
+  {
+    "file_name": "PETCT_b6fc20942c_65823_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 98.78675079345703
+  },
+  {
+    "file_name": "PETCT_b7c1533a39_24066_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 52.822471618652344
+  },
+  {
+    "file_name": "PETCT_b899150306_26543_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 43.40847396850586
+  },
+  {
+    "file_name": "PETCT_b926177c87_99946_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 31.97551727294922
+  },
+  {
+    "file_name": "PETCT_b92d7f441e_93813_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 86.65394592285156
+  },
+  {
+    "file_name": "PETCT_ba717a1f22_01506_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 49.5317497253418
+  },
+  {
+    "file_name": "PETCT_ba81e4b04b_51905_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 30.68060302734375
+  },
+  {
+    "file_name": "PETCT_baacf43b4f_81091_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 74.79387664794922
+  },
+  {
+    "file_name": "PETCT_bacc741e2c_74707_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 50.332210540771484
+  },
+  {
+    "file_name": "PETCT_bb45bfcffd_50107_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 96.4201889038086
+  },
+  {
+    "file_name": "PETCT_bb564e29d2_41169_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 33.205448150634766
+  },
+  {
+    "file_name": "PETCT_bbb2df1e31_90674_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 39.92155075073242
+  },
+  {
+    "file_name": "PETCT_bc80d06f97_82151_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 34.87792205810547
+  },
+  {
+    "file_name": "PETCT_bca97006e4_16083_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 53.65297317504883
+  },
+  {
+    "file_name": "PETCT_bd52fdf529_96150_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 39.818153381347656
+  },
+  {
+    "file_name": "PETCT_bd76c8d299_51077_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 48.37184143066406
+  },
+  {
+    "file_name": "PETCT_bd7c02faa9_25841_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 33.91903305053711
+  },
+  {
+    "file_name": "PETCT_bdd21f5590_30401_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 60.44930648803711
+  },
+  {
+    "file_name": "PETCT_be0d3c767e_57783_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 55.8817138671875
+  },
+  {
+    "file_name": "PETCT_be3e55a32f_98009_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 51.65742111206055
+  },
+  {
+    "file_name": "PETCT_bef465b4ad_73031_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 36.245750427246094
+  },
+  {
+    "file_name": "PETCT_bf178a41b2_45943_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 50.683902740478516
+  },
+  {
+    "file_name": "PETCT_bfd89440db_10321_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 25.547748565673828
+  },
+  {
+    "file_name": "PETCT_bfd89440db_45908_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 57.238624572753906
+  },
+  {
+    "file_name": "PETCT_c018b45a49_81137_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 35.35322952270508
+  },
+  {
+    "file_name": "PETCT_c08293f2b2_63210_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 43.708553314208984
+  },
+  {
+    "file_name": "PETCT_c094a24c03_67291_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 31.998180389404297
+  },
+  {
+    "file_name": "PETCT_c094a24c03_87666_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 34.410667419433594
+  },
+  {
+    "file_name": "PETCT_c10f48b173_67287_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 47.45923614501953
+  },
+  {
+    "file_name": "PETCT_c16c13211c_76612_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 44.47405242919922
+  },
+  {
+    "file_name": "PETCT_c1c9e78e0e_27207_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 64.2400894165039
+  },
+  {
+    "file_name": "PETCT_c252d734a0_85011_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 78.12029266357422
+  },
+  {
+    "file_name": "PETCT_c29aba73da_89538_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 212.69175720214844
+  },
+  {
+    "file_name": "PETCT_c2a51a65c6_57232_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 46.00785827636719
+  },
+  {
+    "file_name": "PETCT_c2ffda4725_27018_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 128.14617919921875
+  },
+  {
+    "file_name": "PETCT_c2ffda4725_94251_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 29.68305015563965
+  },
+  {
+    "file_name": "PETCT_c38b168f1a_47644_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 65.66709899902344
+  },
+  {
+    "file_name": "PETCT_c395306306_04652_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 41.31769943237305
+  },
+  {
+    "file_name": "PETCT_c3cc732d95_95170_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 42.0406379699707
+  },
+  {
+    "file_name": "PETCT_c517c47bed_36150_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 97.38544464111328
+  },
+  {
+    "file_name": "PETCT_c58477f3b4_71683_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 63.9865837097168
+  },
+  {
+    "file_name": "PETCT_c58b637e17_16929_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 30.487232208251953
+  },
+  {
+    "file_name": "PETCT_c596a50286_76854_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 90.80647277832031
+  },
+  {
+    "file_name": "PETCT_c5a143a604_37820_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 45.64191436767578
+  },
+  {
+    "file_name": "PETCT_c6730783de_13754_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 29.241437911987305
+  },
+  {
+    "file_name": "PETCT_c7dc6f848c_41299_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 76.20416259765625
+  },
+  {
+    "file_name": "PETCT_c7fd7e3e30_28525_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 65.41554260253906
+  },
+  {
+    "file_name": "PETCT_c852dfc0a5_15871_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 120.14151000976562
+  },
+  {
+    "file_name": "PETCT_c9f1b9980f_57516_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 57.831939697265625
+  },
+  {
+    "file_name": "PETCT_ca29501275_05940_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 193.32911682128906
+  },
+  {
+    "file_name": "PETCT_ca47fe5e7d_30672_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 66.29540252685547
+  },
+  {
+    "file_name": "PETCT_ca5406d339_57041_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 57.73847961425781
+  },
+  {
+    "file_name": "PETCT_ca58410fad_00731_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 383.0163269042969
+  },
+  {
+    "file_name": "PETCT_ca62984a81_24067_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 44.227386474609375
+  },
+  {
+    "file_name": "PETCT_ca89066e44_64009_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 42.803199768066406
+  },
+  {
+    "file_name": "PETCT_ca9570a0eb_61774_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 37.2390251159668
+  },
+  {
+    "file_name": "PETCT_cab58c1fee_35336_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 532.7255859375
+  },
+  {
+    "file_name": "PETCT_cb1f5e74ab_39650_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 37.35435485839844
+  },
+  {
+    "file_name": "PETCT_cb240e6f0f_72397_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 150.4668731689453
+  },
+  {
+    "file_name": "PETCT_cb83710e3d_91744_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 32.3582763671875
+  },
+  {
+    "file_name": "PETCT_cc1698663a_19081_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 52.99837875366211
+  },
+  {
+    "file_name": "PETCT_cc5c58c82d_77724_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 66.29644775390625
+  },
+  {
+    "file_name": "PETCT_ccb9c375b2_48947_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 41.91246032714844
+  },
+  {
+    "file_name": "PETCT_ccd8f5ff71_53232_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 189.9953155517578
+  },
+  {
+    "file_name": "PETCT_cd2ef932b5_12737_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 92.70698547363281
+  },
+  {
+    "file_name": "PETCT_cd50f3fec4_23292_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 58.13819122314453
+  },
+  {
+    "file_name": "PETCT_cd9bdca46b_37268_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 57.833953857421875
+  },
+  {
+    "file_name": "PETCT_ce0ffef966_69667_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 39.74515151977539
+  },
+  {
+    "file_name": "PETCT_cf20ad1656_03383_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 96.25963592529297
+  },
+  {
+    "file_name": "PETCT_cf3725edf0_00765_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 31.815919876098633
+  },
+  {
+    "file_name": "PETCT_d098458d29_08899_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 33.93220901489258
+  },
+  {
+    "file_name": "PETCT_d0ea6c975f_09558_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 52.17808532714844
+  },
+  {
+    "file_name": "PETCT_d103e57f0e_63742_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 22.733373641967773
+  },
+  {
+    "file_name": "PETCT_d1f456d229_50388_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 73.8684310913086
+  },
+  {
+    "file_name": "PETCT_d206b891ee_03873_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 39.94891357421875
+  },
+  {
+    "file_name": "PETCT_d27451634d_00632_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 43.09469223022461
+  },
+  {
+    "file_name": "PETCT_d31c9ebd93_37139_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 266.86395263671875
+  },
+  {
+    "file_name": "PETCT_d3208ff062_85521_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 37.256778717041016
+  },
+  {
+    "file_name": "PETCT_d325897ff4_12812_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 26.62948989868164
+  },
+  {
+    "file_name": "PETCT_d325897ff4_19525_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 38.67462921142578
+  },
+  {
+    "file_name": "PETCT_d325897ff4_60657_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 26.86499786376953
+  },
+  {
+    "file_name": "PETCT_d32cf972af_81075_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 62.560333251953125
+  },
+  {
+    "file_name": "PETCT_d393ab6c7b_58352_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 210.86488342285156
+  },
+  {
+    "file_name": "PETCT_d3d3b7d4ff_95335_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 17.712717056274414
+  },
+  {
+    "file_name": "PETCT_d3d61785e6_35929_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 57.55866241455078
+  },
+  {
+    "file_name": "PETCT_d3dac0d1cd_88904_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 40.486045837402344
+  },
+  {
+    "file_name": "PETCT_d3f13dff4b_55333_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 55.31093978881836
+  },
+  {
+    "file_name": "PETCT_d40a16781a_42002_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 94.7861557006836
+  },
+  {
+    "file_name": "PETCT_d46f0109f8_77305_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 56.19150924682617
+  },
+  {
+    "file_name": "PETCT_d472033d3b_51450_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 26.80472755432129
+  },
+  {
+    "file_name": "PETCT_d4a08e4bde_65529_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 25.958101272583008
+  },
+  {
+    "file_name": "PETCT_d4b2ff9721_64899_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 207.68374633789062
+  },
+  {
+    "file_name": "PETCT_d4d3d7dfc1_74897_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 33.07150650024414
+  },
+  {
+    "file_name": "PETCT_d4f3375362_17066_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 39.31521224975586
+  },
+  {
+    "file_name": "PETCT_d5103c8fbf_20753_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 64.26305389404297
+  },
+  {
+    "file_name": "PETCT_d51664a9e4_38087_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 57.58782196044922
+  },
+  {
+    "file_name": "PETCT_d51bacdaba_86564_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 53.80980682373047
+  },
+  {
+    "file_name": "PETCT_d626611daf_09149_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 96.94972229003906
+  },
+  {
+    "file_name": "PETCT_d626611daf_36435_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 160.78121948242188
+  },
+  {
+    "file_name": "PETCT_d626611daf_37237_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 62.67716598510742
+  },
+  {
+    "file_name": "PETCT_d626611daf_63001_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 76.37715148925781
+  },
+  {
+    "file_name": "PETCT_d626611daf_88747_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 21.89411163330078
+  },
+  {
+    "file_name": "PETCT_d63f6162a6_80353_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 169.36318969726562
+  },
+  {
+    "file_name": "PETCT_d64d6a87c8_81875_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 100.58668518066406
+  },
+  {
+    "file_name": "PETCT_d674a028b1_18993_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 64.173828125
+  },
+  {
+    "file_name": "PETCT_d69c3fceba_13415_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 98.16781616210938
+  },
+  {
+    "file_name": "PETCT_d69eabbb20_78093_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 66.4895248413086
+  },
+  {
+    "file_name": "PETCT_d6a48a629d_61967_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 27.67113494873047
+  },
+  {
+    "file_name": "PETCT_d6a48a629d_74240_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 26.059038162231445
+  },
+  {
+    "file_name": "PETCT_d6b2218bf3_87440_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 58.581871032714844
+  },
+  {
+    "file_name": "PETCT_d6de1252d9_37054_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 67.66598510742188
+  },
+  {
+    "file_name": "PETCT_d7ca3d4aaa_84250_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 20.885602951049805
+  },
+  {
+    "file_name": "PETCT_d8a92bafe3_39181_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 29.631406784057617
+  },
+  {
+    "file_name": "PETCT_d8d9e52cd5_13911_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 53.59303665161133
+  },
+  {
+    "file_name": "PETCT_d8d9e52cd5_31141_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 52.49088668823242
+  },
+  {
+    "file_name": "PETCT_d8d9e52cd5_71939_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 40.3210334777832
+  },
+  {
+    "file_name": "PETCT_d8d9e52cd5_84919_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 59.88837814331055
+  },
+  {
+    "file_name": "PETCT_d8e3aa97a0_76076_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 171.40513610839844
+  },
+  {
+    "file_name": "PETCT_d951eeb735_21299_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 40.956382751464844
+  },
+  {
+    "file_name": "PETCT_d9da6129f8_51600_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 42.67287826538086
+  },
+  {
+    "file_name": "PETCT_da4ce0da01_85721_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 47.674346923828125
+  },
+  {
+    "file_name": "PETCT_da6161d7eb_72862_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 66.35614013671875
+  },
+  {
+    "file_name": "PETCT_dac5cd2a4d_27614_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 85.07765197753906
+  },
+  {
+    "file_name": "PETCT_dae86b88e2_48447_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 61.35041046142578
+  },
+  {
+    "file_name": "PETCT_db3bac356a_65965_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 32.711830139160156
+  },
+  {
+    "file_name": "PETCT_db3daf78d2_67998_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 66.4365234375
+  },
+  {
+    "file_name": "PETCT_dc15c1d9bb_22192_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 39.83266067504883
+  },
+  {
+    "file_name": "PETCT_dc3437c9b9_60759_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 34.992069244384766
+  },
+  {
+    "file_name": "PETCT_dc6174cb5d_09363_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 44.052757263183594
+  },
+  {
+    "file_name": "PETCT_dc6174cb5d_78881_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 61.51608657836914
+  },
+  {
+    "file_name": "PETCT_dd68a71e0a_85107_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 48.49564743041992
+  },
+  {
+    "file_name": "PETCT_dd887591a9_16620_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 87.58304595947266
+  },
+  {
+    "file_name": "PETCT_dd8f9f217c_50103_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 60.28805923461914
+  },
+  {
+    "file_name": "PETCT_dd975744e7_63221_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 50.2598991394043
+  },
+  {
+    "file_name": "PETCT_ddbb3c69f0_00479_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 107.18235778808594
+  },
+  {
+    "file_name": "PETCT_ddca6cfba6_47148_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 49.55583572387695
+  },
+  {
+    "file_name": "PETCT_de118d7ab9_18077_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 54.072750091552734
+  },
+  {
+    "file_name": "PETCT_dec9ff6a91_15283_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 97.24346923828125
+  },
+  {
+    "file_name": "PETCT_ded50b1e68_93797_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 87.22081756591797
+  },
+  {
+    "file_name": "PETCT_df2e16771a_63775_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 46.274600982666016
+  },
+  {
+    "file_name": "PETCT_e00c98b415_86450_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 179.33807373046875
+  },
+  {
+    "file_name": "PETCT_e03b96666f_34716_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 90.98934173583984
+  },
+  {
+    "file_name": "PETCT_e04b7fa860_44830_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 95.56192779541016
+  },
+  {
+    "file_name": "PETCT_e0a7ccecad_43859_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 43.02925109863281
+  },
+  {
+    "file_name": "PETCT_e0aa99fa04_05827_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 69.56100463867188
+  },
+  {
+    "file_name": "PETCT_e0fdc6212a_28262_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 59.847900390625
+  },
+  {
+    "file_name": "PETCT_e1a4145b63_08969_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 36.27790451049805
+  },
+  {
+    "file_name": "PETCT_e1a5b05186_36173_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 36.72053527832031
+  },
+  {
+    "file_name": "PETCT_e2834e6f5c_51062_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 70.4326400756836
+  },
+  {
+    "file_name": "PETCT_e344879c2e_33234_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 43.05392074584961
+  },
+  {
+    "file_name": "PETCT_e344879c2e_74906_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 39.813232421875
+  },
+  {
+    "file_name": "PETCT_e44480b9b8_00331_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 47.85604476928711
+  },
+  {
+    "file_name": "PETCT_e4712dc58c_56899_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 67.77493286132812
+  },
+  {
+    "file_name": "PETCT_e4749cda88_34566_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 32.641788482666016
+  },
+  {
+    "file_name": "PETCT_e52eca67d7_86848_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 26.97661781311035
+  },
+  {
+    "file_name": "PETCT_e5c7be07a8_61301_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 34.29938888549805
+  },
+  {
+    "file_name": "PETCT_e5d50c5569_02506_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 44.69414520263672
+  },
+  {
+    "file_name": "PETCT_e5e1918765_69923_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 31.958251953125
+  },
+  {
+    "file_name": "PETCT_e68c4577d8_04338_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 33.269622802734375
+  },
+  {
+    "file_name": "PETCT_e69152b6b4_31607_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 53.06565475463867
+  },
+  {
+    "file_name": "PETCT_e6a91fef70_65080_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 145.41580200195312
+  },
+  {
+    "file_name": "PETCT_e6b8b963b2_63791_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 66.8701400756836
+  },
+  {
+    "file_name": "PETCT_e77124b7f4_55351_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 29.272802352905273
+  },
+  {
+    "file_name": "PETCT_e77c5fca12_85839_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 38.01003646850586
+  },
+  {
+    "file_name": "PETCT_e79291780d_72066_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 38.131832122802734
+  },
+  {
+    "file_name": "PETCT_e90a287d09_44603_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 180.28330993652344
+  },
+  {
+    "file_name": "PETCT_e90a287d09_91559_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 25.837078094482422
+  },
+  {
+    "file_name": "PETCT_e9be8ec30f_29714_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 57.222171783447266
+  },
+  {
+    "file_name": "PETCT_e9e1a391b5_59356_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 35.30155944824219
+  },
+  {
+    "file_name": "PETCT_e9feb1135e_13606_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 26.922700881958008
+  },
+  {
+    "file_name": "PETCT_e9feb1135e_42484_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 17.199613571166992
+  },
+  {
+    "file_name": "PETCT_ea051a3e6c_19249_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 54.96857833862305
+  },
+  {
+    "file_name": "PETCT_ea0fd89f0f_32502_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 75.58984375
+  },
+  {
+    "file_name": "PETCT_ea42c88cc7_88113_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 130.27206420898438
+  },
+  {
+    "file_name": "PETCT_ea6c621616_54129_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 129.656982421875
+  },
+  {
+    "file_name": "PETCT_ea9302fb0f_17015_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 219.7424774169922
+  },
+  {
+    "file_name": "PETCT_eafa147e24_44792_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 66.85413360595703
+  },
+  {
+    "file_name": "PETCT_ebaa30ba2e_69806_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 67.06583404541016
+  },
+  {
+    "file_name": "PETCT_ebb0045704_08213_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 60.83293914794922
+  },
+  {
+    "file_name": "PETCT_ec6b934720_66107_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 49.64741134643555
+  },
+  {
+    "file_name": "PETCT_ed7abf4433_58502_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 70.97900390625
+  },
+  {
+    "file_name": "PETCT_ed9dca00d2_44626_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 51.458194732666016
+  },
+  {
+    "file_name": "PETCT_ed9fa4eff1_00631_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 48.54534149169922
+  },
+  {
+    "file_name": "PETCT_ee97822c60_78725_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 53.1677360534668
+  },
+  {
+    "file_name": "PETCT_eee2ede9ad_07089_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 37.40517807006836
+  },
+  {
+    "file_name": "PETCT_eeeda112bb_99935_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 64.3475112915039
+  },
+  {
+    "file_name": "PETCT_ef9d41b836_39055_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 91.16353607177734
+  },
+  {
+    "file_name": "PETCT_f01e83894d_61290_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 46.490299224853516
+  },
+  {
+    "file_name": "PETCT_f068e22258_71238_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 174.44842529296875
+  },
+  {
+    "file_name": "PETCT_f082a3d319_31336_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 50.68583679199219
+  },
+  {
+    "file_name": "PETCT_f0a1a38a3b_38725_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 21.873912811279297
+  },
+  {
+    "file_name": "PETCT_f0e1b89b41_23556_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 36.829734802246094
+  },
+  {
+    "file_name": "PETCT_f11f3d3692_24052_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 39.89221954345703
+  },
+  {
+    "file_name": "PETCT_f144b214af_64199_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 32.33536148071289
+  },
+  {
+    "file_name": "PETCT_f1501b1f45_34354_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 36.98668670654297
+  },
+  {
+    "file_name": "PETCT_f1594a7d8a_44309_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 103.26538848876953
+  },
+  {
+    "file_name": "PETCT_f1ca0f7c4c_21488_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 22.835596084594727
+  },
+  {
+    "file_name": "PETCT_f24f3ce1da_27130_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 74.600341796875
+  },
+  {
+    "file_name": "PETCT_f37014ec85_74079_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 81.71525573730469
+  },
+  {
+    "file_name": "PETCT_f4668d2bdc_84583_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 193.28211975097656
+  },
+  {
+    "file_name": "PETCT_f47e31ceb5_36586_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 92.57318878173828
+  },
+  {
+    "file_name": "PETCT_f4813007a0_79113_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 44.012733459472656
+  },
+  {
+    "file_name": "PETCT_f4a5ebd915_06836_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 21.416696548461914
+  },
+  {
+    "file_name": "PETCT_f5c2c09846_57257_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 36.10120391845703
+  },
+  {
+    "file_name": "PETCT_f5cff2e59d_18997_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 32.463016510009766
+  },
+  {
+    "file_name": "PETCT_f603eeceba_29929_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 52.87733840942383
+  },
+  {
+    "file_name": "PETCT_f637b5930b_06338_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 33.961036682128906
+  },
+  {
+    "file_name": "PETCT_f650c87621_18719_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 40.75927734375
+  },
+  {
+    "file_name": "PETCT_f650c87621_89620_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 94.70811462402344
+  },
+  {
+    "file_name": "PETCT_f65602d938_91477_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 108.73442840576172
+  },
+  {
+    "file_name": "PETCT_f7067b7bbb_25597_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 94.51373291015625
+  },
+  {
+    "file_name": "PETCT_f7a9267a69_68818_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 13.455881118774414
+  },
+  {
+    "file_name": "PETCT_f7a9267a69_75431_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 24.148197174072266
+  },
+  {
+    "file_name": "PETCT_f8314eb3f7_46438_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 76.60088348388672
+  },
+  {
+    "file_name": "PETCT_f8314eb3f7_98309_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 82.10791015625
+  },
+  {
+    "file_name": "PETCT_f8aac0e202_41484_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 34.89176559448242
+  },
+  {
+    "file_name": "PETCT_f8aac0e202_85987_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 23.895151138305664
+  },
+  {
+    "file_name": "PETCT_f8de0cde56_01576_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 32.12468719482422
+  },
+  {
+    "file_name": "PETCT_f9c4d4f9ab_27135_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 249.1898956298828
+  },
+  {
+    "file_name": "PETCT_f9e0c504af_14170_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 84.69998168945312
+  },
+  {
+    "file_name": "PETCT_faf4a6dbaa_49516_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 87.21887969970703
+  },
+  {
+    "file_name": "PETCT_fb014a1ea0_85859_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 22.636837005615234
+  },
+  {
+    "file_name": "PETCT_fbd907a179_52084_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 48.05910873413086
+  },
+  {
+    "file_name": "PETCT_fc0389a486_25868_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 124.80451202392578
+  },
+  {
+    "file_name": "PETCT_fcdbe15200_11682_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 39.77486038208008
+  },
+  {
+    "file_name": "PETCT_fde66dd53a_79975_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 20.33038330078125
+  },
+  {
+    "file_name": "PETCT_fde79b6aa9_13154_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 73.54808807373047
+  },
+  {
+    "file_name": "PETCT_fde79b6aa9_88178_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 38.052154541015625
+  },
+  {
+    "file_name": "PETCT_fde79b6aa9_88403_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 24.271936416625977
+  },
+  {
+    "file_name": "PETCT_fe705ea1cc_47025_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 30.851346969604492
+  },
+  {
+    "file_name": "PETCT_fe705ea1cc_93772_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 49.714664459228516
+  },
+  {
+    "file_name": "PETCT_ff1451316e_22165_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 43.05235290527344
+  },
+  {
+    "file_name": "PETCT_ff39795341_98939_0001.nii.gz",
+    "pet_min": 0.0,
+    "pet_max": 27.70505142211914
+  }
+]
