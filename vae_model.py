@@ -383,3 +383,51 @@ class VAELarge(nn.Module):
         z = self.reparameterize(mu, logvar) if sample_posterior else mu
         recon = self.decoder(z)
         return recon, mu, logvar
+
+
+class SegDecoder3D(nn.Module):
+    def __init__(
+        self,
+        num_classes=1,
+        latent_dim=12,
+        dino_out_dim=128,
+        base_channels=4,
+    ):
+        super().__init__()
+        C = base_channels
+        self.hidden_channels = C * 4
+        self.depth_after_3d = 7
+
+        self.entry = nn.Sequential(
+            nn.Conv2d(latent_dim + dino_out_dim, C * 4, 1),
+            make_group_norm(C * 4),
+            nn.SiLU(),
+            ResBlock2D(C * 4, C * 4),
+        )
+
+        self.to_3d = nn.Conv2d(C * 4, C * 4 * 7, kernel_size=1)
+
+        self.up1 = UpResBlock3D(C * 4, C * 4, scale_factor=(2, 1, 1))
+        self.up2 = UpResBlock3D(C * 4, C * 2, scale_factor=(2, 1, 1))
+        self.up3 = UpResBlock3D(C * 2, C * 2, scale_factor=(2, 1, 1))
+        self.up4 = UpResBlock3D(C * 2, C,     scale_factor=(2, 1, 1))
+        self.up5 = UpResBlock3D(C,     C,     scale_factor=(2, 1, 1))
+
+        self.out = nn.Sequential(
+            make_group_norm(C),
+            nn.SiLU(),
+            nn.Conv3d(C, num_classes, kernel_size=1)
+        )
+
+    def forward(self, mu, dino_feat):
+        B, _, H, W = mu.shape
+        x = torch.cat([mu, dino_feat], dim=1)
+        x = self.entry(x)
+        x = self.to_3d(x)
+        x = x.view(B, self.hidden_channels, self.depth_after_3d, H, W)
+        x = self.up1(x)
+        x = self.up2(x)
+        x = self.up3(x)
+        x = self.up4(x)
+        x = self.up5(x)
+        return self.out(x)
