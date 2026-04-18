@@ -37,7 +37,7 @@ def parse_args():
 
     parser.add_argument("--batch_size", type=int, default=1) # fix = 1
     parser.add_argument("--minibatch_size", type=int, default=64)
-    parser.add_argument("--test_batch_size", type=int, default=4)
+    parser.add_argument("--test_batch_size", type=int, default=1)
     parser.add_argument("--lr", type=float, default=1.0e-4)
     parser.add_argument("--min_lr_ratio", type=float, default=0.1)
     parser.add_argument("--lr_scheduler", type=str, default="cosine", choices=["cosine", "linear", "constant"])
@@ -47,7 +47,7 @@ def parse_args():
     parser.add_argument("--test_chunk_size", type=int, default=64)
     parser.add_argument("--weight_decay", type=float, default=1e-5)
     parser.add_argument("--grad_clip", type=float, default=1.0)
-    parser.add_argument("--kl_coef", type=float, default=1e-5)
+    parser.add_argument("--kl_coef", type=float, default=1e-4)
     parser.add_argument("--kl_warmup_frac", type=float, default=0.2)
 
     parser.add_argument("--patch_size", type=int, default=64)
@@ -188,44 +188,70 @@ def evaluate(args, model, data_loader):
     model.eval()
 
     psnr_fn = PeakSignalNoiseRatio(data_range=2.0).to(args.device)
-
     ssim_fn = MultiScaleStructuralSimilarityIndexMeasure(
         data_range=2.0,
         betas=(0.3, 0.3, 0.4),
     ).to(args.device)
 
+    chunk_size = args.test_chunk_size
+    P = args.patch_size
+
     for batch in tqdm(data_loader, desc="Evaluating"):
+        # IMPORTANT:
+        # this evaluation expects one full volume per batch
+        # so set test_batch_size = 1
+        x_full  = batch["image"].to(args.device, non_blocking=True)   # (1, C, D, H, W)
         patches = batch["patch"].to(args.device, non_blocking=True)   # (1, N, C, P, P, P)
-        coords  = batch["coord"].to(args.device, non_blocking=True)
-        starts  = batch["start"].to(args.device, non_blocking=True)
+        coords  = batch["coord"].to(args.device, non_blocking=True)   # (1, N, 3)
+        starts  = batch["start"].to(args.device, non_blocking=True)   # (1, N, 3)
 
-        B, N, C, P, _, _ = patches.shape
-        assert B == 1
+        B, N, C, _, _, _ = patches.shape
+        assert B == 1, "Please set args.test_batch_size = 1 for full-image evaluation."
 
-        patches = patches.view(N, C, P, P, P)
-        coords  = coords.view(N, 3)
-        starts  = starts.view(N, 3)
+        x_full = x_full[0]        # (C, D, H, W)
+        patches = patches[0]      # (N, C, P, P, P)
+        coords = coords[0]        # (N, 3)
+        starts = starts[0]        # (N, 3)
 
-        # ---- forward in chunks ----
-        chunk_size = args.test_chunk_size
+        _, D, H, W = x_full.shape
 
+        # buffers for overlap-add reconstruction
+        recon_full = torch.zeros((C, D, H, W), device=args.device, dtype=patches.dtype)
+        weight_full = torch.zeros((1, D, H, W), device=args.device, dtype=patches.dtype)
+
+        # forward all patches in chunks
         for start_idx in range(0, N, chunk_size):
-            end = min(start_idx + chunk_size, N)
+            end_idx = min(start_idx + chunk_size, N)
 
-            p = patches[start_idx:end]     # (k, C, P, P, P)
-            c = coords[start_idx:end]
+            p = patches[start_idx:end_idx]   # (k, C, P, P, P)
+            c = coords[start_idx:end_idx]    # (k, 3)
 
-            recon, _, _ = model(p, c, sample_posterior=False)
+            recon, _, _ = model(p, c, sample_posterior=False)  # (k, C, P, P, P)
 
-            # ---- compute metrics directly (skip GT stitching) ----
-            x_all = p.permute(0, 2, 1, 3, 4).reshape(-1, C, P, P)
-            r_all = recon.permute(0, 2, 1, 3, 4).reshape(-1, C, P, P)
+            # stitch reconstructed patches back
+            patch_starts = starts[start_idx:end_idx]  # (k, 3)
+            for j in range(recon.shape[0]):
+                sd, sh, sw = patch_starts[j].tolist()
+                recon_full[:, sd:sd+P, sh:sh+P, sw:sw+P] += recon[j]
+                weight_full[:, sd:sd+P, sh:sh+P, sw:sw+P] += 1.0
 
-            psnr_fn.update(r_all, x_all)
-            ssim_fn.update(r_all, x_all)
+        # average overlapping regions
+        recon_full = recon_full / weight_full.clamp_min(1.0)
+
+        # compare full reconstructed volume vs original volume
+        # torchmetrics image metrics are 2D, so evaluate slice-wise along depth
+        # reshape (C, D, H, W) -> (D, C, H, W)
+        x_slices = x_full.permute(1, 0, 2, 3).contiguous()
+        r_slices = recon_full.permute(1, 0, 2, 3).contiguous()
+
+        psnr_fn.update(r_slices, x_slices)
+        ssim_fn.update(r_slices, x_slices)
 
     psnr = psnr_fn.compute().item()
     ssim = ssim_fn.compute().item()
+
+    psnr_fn.reset()
+    ssim_fn.reset()
 
     return psnr, ssim
 

@@ -6,7 +6,6 @@ import torch.nn.functional as F
 from torch.utils.data import Dataset
 
 
-
 class VAEDataset(Dataset):
     def __init__(self, data_dir, augment=False, dtype=torch.float32):
         self.data_dir = data_dir
@@ -240,6 +239,7 @@ class FullImagePatchDataset3D(Dataset):
         starts = torch.tensor(starts, dtype=torch.long)
 
         out = {
+            "image": x, 
             "patch": patches,
             "coord": coords,
             "start": starts,
@@ -247,6 +247,7 @@ class FullImagePatchDataset3D(Dataset):
 
         if label_patches is not None:
             out["label_patches"] = torch.stack(label_patches, dim=0)
+            out["label"] = y 
 
         return out
 

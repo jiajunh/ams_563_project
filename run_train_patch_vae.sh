@@ -9,14 +9,14 @@ python train_patch_vae.py \
     --batch_size 1 \
     --minibatch_size 16 \
     --test_batch_size 1 \
-    --lr 1.0e-4 \
+    --lr 2.0e-4 \
     --min_lr_ratio 0.1 \
     --lr_scheduler "cosine" \
     --warmup_frac 0.1 \
     --epochs 50 \
-    --evaluate_freq 1 \
+    --evaluate_freq 2 \
     --test_chunk_size 128 \
-    --weight_decay 1.0e-5 \
+    --weight_decay 1.0e-4 \
     --grad_clip 1.0 \
     --kl_coef 1.0e-5 \
     --kl_warmup_frac 0.20 \
