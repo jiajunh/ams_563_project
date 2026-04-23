@@ -1,5 +1,6 @@
 import os
 import torch
+import random
 
 import numpy as np
 import torch.nn.functional as F
@@ -130,7 +131,6 @@ class SegmentDataset(Dataset):
 
 
 class FullImagePatchDataset3D(Dataset):
-
     def __init__(self, image_dir, label_dir=None, patch_size=64, stride=32):
         self.image_dir = image_dir
         self.label_dir = label_dir
@@ -188,6 +188,12 @@ class FullImagePatchDataset3D(Dataset):
 
         x = torch.from_numpy(img).to(self.dtype)
         y = torch.from_numpy(label).to(self.dtype) if label is not None else None
+
+        if y is not None:
+            if y.ndim == 4 and y.shape[0] == 1:
+                y = y.squeeze(0)
+            elif y.ndim != 3:
+                raise ValueError(f"Unexpected label shape: {y.shape}")
 
         if x.shape[1:] != (224, 224, 224):
             x = x.unsqueeze(0)
@@ -253,119 +259,152 @@ class FullImagePatchDataset3D(Dataset):
 
 
 
-class PatchDataset3D(Dataset):
-    def __init__(self, image_dir, label_dir=None, patch_size=64, stride=32):
+class BalancedLesionPatchDataset3D(Dataset):
+    def __init__(
+        self,
+        image_dir,
+        label_dir,
+        patch_size=64,
+        patches_per_volume=64,
+        positive_ratio=0.4,
+        target_shape=(224, 224, 224),
+        pos_jitter=24,
+        dtype=torch.float32,
+    ):
         self.image_dir = image_dir
         self.label_dir = label_dir
         self.patch_size = patch_size
-        self.stride = stride
-        self.dtype = torch.float32
+        self.patches_per_volume = patches_per_volume
+        self.positive_ratio = positive_ratio
+        self.target_shape = target_shape
+        self.pos_jitter = pos_jitter
+        self.dtype = dtype
 
         self.files = sorted([
             f for f in os.listdir(image_dir)
             if f.endswith(".npz")
         ])
 
-        self.index_map = []
-
-        target_D, target_H, target_W = 224, 224, 224
-        d_starts = self._get_starts(target_D)
-        h_starts = self._get_starts(target_H)
-        w_starts = self._get_starts(target_W)
-
-        for vol_idx in range(len(self.files)):
-            for sd in d_starts:
-                for sh in h_starts:
-                    for sw in w_starts:
-                        self.index_map.append((vol_idx, sd, sh, sw))
-
     def __len__(self):
-        return len(self.index_map)
+        return len(self.files)
 
-    def _load_npz(self, img_path, label_path=None):
-        img_data = np.load(img_path)
-        img = img_data["image"]
-
-        label = None
-        if label_path is not None:
-            label_data = np.load(label_path)
-            label = label_data["label"]
-
+    def _load_npz(self, img_path, label_path):
+        img = np.load(img_path)["image"]
+        label = np.load(label_path)["label"]
         return img, label
 
-    def _get_starts(self, size):
+    def _normalize(self, img, label):
+        x = torch.from_numpy(img).to(self.dtype)
+        y = torch.from_numpy(label).to(self.dtype)
+
+        if x.ndim == 3:
+            x = x.unsqueeze(0)
+
+        if y.ndim == 3:
+            y = y.unsqueeze(0)
+        elif y.ndim == 4 and y.shape[0] == 1:
+            pass
+        else:
+            raise ValueError(f"Unexpected label shape: {y.shape}")
+
+        if tuple(x.shape[1:]) != self.target_shape:
+            x = F.interpolate(
+                x.unsqueeze(0),
+                size=self.target_shape,
+                mode="trilinear",
+                align_corners=False,
+            ).squeeze(0)
+
+        if tuple(y.shape[1:]) != self.target_shape:
+            y = F.interpolate(
+                y.unsqueeze(0),
+                size=self.target_shape,
+                mode="nearest",
+            ).squeeze(0)
+
+        y = (y > 0.5).float()
+        return x, y
+
+    def _random_start(self, D, H, W):
         P = self.patch_size
-        S = self.stride
-        starts = list(range(0, size - P + 1, S))
-        if starts[-1] != size - P:
-            starts.append(size - P)
-        return starts
+        sd = torch.randint(0, D - P + 1, (1,)).item()
+        sh = torch.randint(0, H - P + 1, (1,)).item()
+        sw = torch.randint(0, W - P + 1, (1,)).item()
+        return sd, sh, sw
+
+    def _positive_start(self, y, D, H, W):
+        P = self.patch_size
+        lesion_voxels = torch.nonzero(y[0] > 0.5, as_tuple=False)
+
+        if lesion_voxels.numel() == 0:
+            return self._random_start(D, H, W)
+
+        idx = torch.randint(0, lesion_voxels.shape[0], (1,)).item()
+        d, h, w = lesion_voxels[idx].tolist()
+
+        # Put lesion somewhere inside or near the patch, not always centered
+        min_sd = max(0, d - P + 1 - self.pos_jitter)
+        max_sd = min(d + self.pos_jitter, D - P)
+
+        min_sh = max(0, h - P + 1 - self.pos_jitter)
+        max_sh = min(h + self.pos_jitter, H - P)
+
+        min_sw = max(0, w - P + 1 - self.pos_jitter)
+        max_sw = min(w + self.pos_jitter, W - P)
+
+        sd = torch.randint(min_sd, max_sd + 1, (1,)).item()
+        sh = torch.randint(min_sh, max_sh + 1, (1,)).item()
+        sw = torch.randint(min_sw, max_sw + 1, (1,)).item()
+
+        return sd, sh, sw
 
     def _compute_coord(self, sd, sh, sw, D, H, W):
         half = self.patch_size / 2.0
-        return torch.tensor([
+        return [
             (sd + half) / D,
             (sh + half) / H,
             (sw + half) / W,
-        ], dtype=torch.float32)
-
-    def _resize(self, x, y=None):
-        target_shape = (224,224,224)
-
-        if tuple(x.shape[1:]) != target_shape:
-            x = x.unsqueeze(0) 
-            x = F.interpolate(
-                x,
-                size=target_shape,
-                mode="trilinear",
-                align_corners=False
-            )
-            x = x.squeeze(0)
-
-            if y is not None:
-                y = y.unsqueeze(0).unsqueeze(0)
-                y = F.interpolate(
-                    y,
-                    size=target_shape,
-                    mode="nearest"
-                )
-                y = y.squeeze(0).squeeze(0)
-
-        return x, y
+        ]
 
     def __getitem__(self, idx):
-        vol_idx, sd, sh, sw = self.index_map[idx]
-        file_name = self.files[vol_idx]
+        file_name = self.files[idx]
 
         img_path = os.path.join(self.image_dir, file_name)
-        label_path = None
-        if self.label_dir is not None:
-            label_path = os.path.join(self.label_dir, file_name)
+        label_path = os.path.join(self.label_dir, file_name)
 
         img, label = self._load_npz(img_path, label_path)
-
-        x = torch.from_numpy(img).to(self.dtype)
-        y = torch.from_numpy(label).to(self.dtype) if label is not None else None
-
-        x, y = self._resize(x, y)
+        x, y = self._normalize(img, label)
 
         C, D, H, W = x.shape
         P = self.patch_size
 
-        patch = x[:, sd:sd+P, sh:sh+P, sw:sw+P]
-        coord = self._compute_coord(sd, sh, sw, D, H, W)
-        start = torch.tensor([sd, sh, sw], dtype=torch.long)
+        n_pos = int(self.patches_per_volume * self.positive_ratio)
+        n_neg = self.patches_per_volume - n_pos
 
-        out = {
-            "patch": patch,
-            "coord": coord,
-            "start": start,
-            "volume_idx": vol_idx,
+        starts = []
+
+        for _ in range(n_pos):
+            starts.append(self._positive_start(y, D, H, W))
+
+        for _ in range(n_neg):
+            starts.append(self._random_start(D, H, W))
+
+        random.shuffle(starts)
+
+        patches = []
+        label_patches = []
+        coords = []
+
+        for sd, sh, sw in starts:
+            patches.append(x[:, sd:sd+P, sh:sh+P, sw:sw+P])
+            label_patches.append(y[:, sd:sd+P, sh:sh+P, sw:sw+P])
+            coords.append(self._compute_coord(sd, sh, sw, D, H, W))
+
+        return {
+            "image": x,
+            "label": y,
+            "patch": torch.stack(patches, dim=0),
+            "label_patches": torch.stack(label_patches, dim=0),
+            "coord": torch.tensor(coords, dtype=torch.float32),
+            "start": torch.tensor(starts, dtype=torch.long),
         }
-
-        if y is not None:
-            label_patch = y[sd:sd+P, sh:sh+P, sw:sw+P].unsqueeze(0)  # [1, P, P, P]
-            out["label"] = label_patch
-
-        return out
-
