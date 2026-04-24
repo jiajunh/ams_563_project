@@ -285,8 +285,8 @@ def evaluate(args, model, data_loader):
         fn = ((pred == 0) & (target == 1)).sum().float()
 
         voxel_volume = 1.0
-        fpv = false_positive.float() * voxel_volume
-        fnv = false_negative.float() * voxel_volume
+        fpv = fp.float() * voxel_volume
+        fnv = fn.float() * voxel_volume
 
         total_voxels = pred.numel()
         target_sum = target.sum().float()
