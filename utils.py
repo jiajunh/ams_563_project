@@ -116,13 +116,13 @@ class SegmentDataset(Dataset):
             )
             x = x.squeeze(0)
 
-            y = y.unsqueeze(0)
+            y = y.unsqueeze(0).unsqueeze(0)
             y = F.interpolate(
                 y,
                 size=(224, 224, 224),
                 mode="nearest",
             )
-            y = y.squeeze(0)
+            y = y.squeeze(0).squeeze(0)
 
         x = x.permute(*self.axis_perms[perm_idx]).contiguous()
         y = y.permute(*self.axis_perms[perm_idx]).contiguous()
