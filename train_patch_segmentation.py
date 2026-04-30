@@ -218,7 +218,7 @@ def compute_seg_loss(logits, target, args):
 
 
 @torch.no_grad()
-def evaluate(args, model, data_loader):
+def evaluate1(args, model, data_loader):
     model.eval()
 
     chunk_size = args.test_chunk_size
@@ -312,6 +312,100 @@ def evaluate(args, model, data_loader):
         "fnv": total_fpn / n,
     }
 
+
+def evaluate(args, model, data_loader):
+    model.eval()
+
+    chunk_size = args.test_chunk_size
+    P = args.patch_size
+
+    total_dice = 0.0
+    total_fpv = 0.0
+    total_fnv = 0.0
+    total_fp_ratio = 0.0
+    total_fn_ratio = 0.0
+    n_cases = 0
+
+    for batch in tqdm(data_loader, desc="Evaluating"):
+        x_full = batch["image"].to(args.device, non_blocking=True)
+        y_full = batch["label"].to(args.device, non_blocking=True).float()
+        patches = batch["patch"].to(args.device, non_blocking=True)
+        coords = batch["coord"].to(args.device, non_blocking=True)
+        starts = batch["start"].to(args.device, non_blocking=True)
+
+        B, N, C, _, _, _ = patches.shape
+        assert B == 1, "Please set --test_batch_size 1 for evaluation."
+
+        x_full = x_full[0]
+        y_full = y_full[0]
+
+        if y_full.ndim == 3:
+            y_full = y_full.unsqueeze(0)
+
+        patches = patches[0]
+        coords = coords[0]
+        starts = starts[0]
+
+        _, D, H, W = x_full.shape
+
+        logit_full = torch.zeros((1, D, H, W), device=args.device)
+        weight_full = torch.zeros((1, D, H, W), device=args.device)
+
+        for start_idx in range(0, N, chunk_size):
+            end_idx = min(start_idx + chunk_size, N)
+
+            p = patches[start_idx:end_idx]
+            c = coords[start_idx:end_idx]
+
+            logits = model(p, c)
+
+            patch_starts = starts[start_idx:end_idx]
+
+            for j in range(logits.shape[0]):
+                sd, sh, sw = patch_starts[j].tolist()
+
+                logit_full[:, sd:sd+P, sh:sh+P, sw:sw+P] += logits[j]
+                weight_full[:, sd:sd+P, sh:sh+P, sw:sw+P] += 1.0
+
+        logit_full = logit_full / weight_full.clamp_min(1.0)
+
+        pred = (torch.sigmoid(logit_full) > 0.5).float()
+        target = (y_full > 0.5).float()
+
+        inter = (pred * target).sum()
+        pred_sum = pred.sum()
+        target_sum = target.sum()
+
+        fp = ((pred == 1) & (target == 0)).sum().float()
+        fn = ((pred == 0) & (target == 1)).sum().float()
+
+        voxel_volume = 1.0
+        fpv = fp.float() * voxel_volume
+        fnv = fn.float() * voxel_volume
+
+        total_voxels = pred.numel()
+        target_sum = target.sum().float()
+        fp_ratio = fp / (total_voxels + 1e-6)
+        fn_ratio = fn / (total_voxels + 1e-6)
+
+        dice = (2.0 * inter + 1e-6) / (pred_sum + target_sum + 1e-6)
+
+        total_dice += dice.item()
+        total_fp_ratio += fp_ratio.item()
+        total_fn_ratio += fn_ratio.item()
+        total_fpv += fpv.item()
+        total_fnv += fnv.item()
+        n_cases += 1
+
+    n = max(n_cases, 1)
+
+    return {
+        "dice": total_dice / n,
+        "fp": total_fp_ratio / n,
+        "fn": total_fn_ratio / n,
+        "fpv": total_fpv / n,
+        "fnv": total_fnv / n,
+    }
 
 
 def train(args, model, discriminator, data_loader, optimizer, optimizer_d,
