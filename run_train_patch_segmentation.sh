@@ -32,9 +32,9 @@ python train_patch_segmentation.py \
     --patch_size 64 \
     --stride 48 \
     --focal_gamma 2.0 \
-    --focal_alpha 0.7 \
+    --focal_alpha 0.6 \
     --dice_weight 1.0 \
-    --focal_weight 5.0 \
+    --focal_weight 2.0 \
     --g_loss_weight 0.1 \
     --use_gan \
 

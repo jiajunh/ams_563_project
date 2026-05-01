@@ -289,3 +289,104 @@ class PatchSegDiscriminator3D(nn.Module):
         out = self.net(x)
         return out.view(image.shape[0], -1)
 
+
+
+class PatchSegmentation3DWithGlobal(nn.Module):
+    def __init__(
+        self,
+        in_channels=2,
+        out_channels=1,
+        base_channels=16,
+        latent_dim=16,
+    ):
+        super().__init__()
+
+        self.enc_in = ResBlock3D(in_channels, base_channels)
+        self.enc_down1 = Downsample3D(base_channels, base_channels * 2)
+        self.enc_res1 = ResBlock3D(base_channels * 2, base_channels * 2)
+
+        self.enc_down2 = Downsample3D(base_channels * 2, base_channels * 4)
+        self.enc_res2 = ResBlock3D(base_channels * 4, base_channels * 4)
+
+        self.to_latent = nn.Conv3d(base_channels * 4, latent_dim, kernel_size=1)
+
+        # Same position conditioning as VAE
+        self.pos_mlp = PositionMLP(latent_dim=latent_dim, hidden_dim=64)
+
+        # Decoder: latent -> segmentation logits
+        self.dec_in = ResBlock3D(latent_dim, base_channels * 4)
+
+        self.dec_up1 = Upsample3D(base_channels * 4, base_channels * 2)
+        self.dec_res1 = ResBlock3D(base_channels * 2, base_channels * 2)
+
+        self.dec_up2 = Upsample3D(base_channels * 2, base_channels)
+        self.dec_res2 = ResBlock3D(base_channels, base_channels)
+        self.out_conv = nn.Conv3d(base_channels, out_channels, kernel_size=1)
+
+
+        self.coord_head = nn.Sequential(
+            nn.Linear(latent_dim, 64),
+            nn.SiLU(),
+            nn.Linear(64, 3),
+        )
+
+        self.global_encoder = nn.Sequential(
+            nn.Conv3d(in_channels, base_channels, kernel_size=3, padding=1),
+            nn.SiLU(),
+            nn.Conv3d(base_channels, base_channels * 2, kernel_size=3, stride=2, padding=1),
+            nn.SiLU(),
+            nn.Conv3d(base_channels * 2, base_channels * 4, kernel_size=3, stride=2, padding=1),
+            nn.SiLU(),
+            nn.AdaptiveAvgPool3d(1),
+        )
+
+        self.global_mlp = nn.Sequential(
+            nn.Flatten(),
+            nn.Linear(base_channels * 4, latent_dim * 2),
+        )
+
+    def encode(self, x):
+        h = self.enc_in(x)
+        h = self.enc_down1(h)
+        h = self.enc_res1(h)
+        h = self.enc_down2(h)
+        h = self.enc_res2(h)
+        z = self.to_latent(h)
+        return z
+
+
+    def apply_position_conditioning(self, z, coords):
+        gamma, beta = self.pos_mlp(coords)
+        gamma = gamma[:, :, None, None, None]
+        beta = beta[:, :, None, None, None]
+        return z * (1.0 + gamma) + beta
+
+    def decode(self, z):
+        h = self.dec_in(z)
+        h = self.dec_up1(h)
+        h = self.dec_res1(h)
+        h = self.dec_up2(h)
+        h = self.dec_res2(h)
+        logits = self.out_conv(h)
+        return logits
+
+    def predict_coord(self, z):
+        z_pool = z.mean(dim=(2, 3, 4))
+        return self.coord_head(z_pool)
+
+
+    def forward(self, x, coords, global_x=None):
+        z = self.encode(x)
+        z = self.apply_position_conditioning(z, coords)
+
+        if global_x is not None:
+            gb = self.global_encoder(global_x)
+            gamma_beta = self.global_mlp(gb)
+            gamma, beta = gamma_beta.chunk(2, dim=1)
+            gamma = gamma[:, :, None, None, None]
+            beta = beta[:, :, None, None, None]
+            z = z * (1.0 + gamma) + beta
+
+        logits = self.decode(z)
+        return logits
+

@@ -1,0 +1,46 @@
+#!/bin/bash
+
+python train_patch_segmentation_update.py \
+    --train_data_path "/n/netscratch/kdbrantley_lab/Lab/jiajunh/autopet/samples/train/images/" \
+    --train_label_path "/n/netscratch/kdbrantley_lab/Lab/jiajunh/autopet/samples/train/labels/" \
+    --test_data_path "/n/netscratch/kdbrantley_lab/Lab/jiajunh/autopet/samples/test/images/" \
+    --test_label_path "/n/netscratch/kdbrantley_lab/Lab/jiajunh/autopet/samples/test/labels/" \
+    --num_workers 1 \
+    --test_num_workers 4 \
+    --seed 1 \
+    --dataset_type "balanced" \
+    --sample_patches_per_volume 64 \
+    --sample_positive_ratio 0.4 \
+    --sample_pos_jitter 24 \
+    --batch_size 4 \
+    --minibatch_size 32 \
+    --test_batch_size 1 \
+    --lr 1.5e-4 \
+    --min_lr_ratio 0.1 \
+    --lr_scheduler "cosine" \
+    --warmup_frac 0.1 \
+    --epochs 100 \
+    --evaluate_freq 1 \
+    --test_chunk_size 128 \
+    --weight_decay 1.0e-4 \
+    --grad_clip 1.0 \
+    --kl_coef 1.0e-5 \
+    --kl_warmup_frac 0.20 \
+    --base_channels 16 \
+    --d_base_channels 16 \
+    --latent_dim 32 \
+    --patch_size 64 \
+    --stride 48 \
+    --tversky_alpha 0.45 \
+    --tversky_beta 0.55 \
+    --tversky_gamma 1.0 \
+    --dice_weight 1.0 \
+    --focal_weight 1.0 \
+    --coord_weight 0.01 \
+    --g_loss_weight 0.1 \
+    --temperature 0.75 \
+    --contrast_temperature 0.2 \
+    --contrast_weight 0.025 \
+    --sigma_scale 0.25 \
+    --use_gan \
+
