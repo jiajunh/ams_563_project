@@ -10,7 +10,7 @@ python train_patch_segmentation_update.py \
     --seed 1 \
     --dataset_type "balanced" \
     --sample_patches_per_volume 64 \
-    --sample_positive_ratio 0.4 \
+    --sample_positive_ratio 0.5 \
     --sample_pos_jitter 24 \
     --batch_size 4 \
     --minibatch_size 32 \
@@ -31,14 +31,15 @@ python train_patch_segmentation_update.py \
     --latent_dim 32 \
     --patch_size 64 \
     --stride 48 \
-    --tversky_alpha 0.45 \
-    --tversky_beta 0.55 \
+    --tversky_alpha 0.4 \
+    --tversky_beta 0.6 \
     --tversky_gamma 1.0 \
     --dice_weight 1.0 \
     --focal_weight 1.0 \
     --coord_weight 0.01 \
+    --bce_weight 0.1 \
     --g_loss_weight 0.1 \
-    --temperature 0.75 \
+    --temperature 1.0 \
     --contrast_temperature 0.2 \
     --contrast_weight 0.025 \
     --sigma_scale 0.25 \

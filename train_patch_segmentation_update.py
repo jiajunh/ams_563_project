@@ -66,8 +66,9 @@ def parse_args():
     parser.add_argument("--dice_weight", type=float, default=1.0)
     parser.add_argument("--focal_weight", type=float, default=1.0)
     parser.add_argument("--coord_weight", type=float, default=0.01)
+    parser.add_argument("--bce_weight", type=float, default=0.1)
 
-    parser.add_argument("--temperature", type=float, default=0.6)
+    parser.add_argument("--temperature", type=float, default=1.0)
     parser.add_argument("--contrast_temperature", type=float, default=0.2)
     parser.add_argument("--contrast_weight", type=float, default=0.01)
     parser.add_argument("--sigma_scale", type=float, default=0.25)
@@ -252,11 +253,10 @@ def compute_seg_loss(logits, target, args):
         beta=args.tversky_beta,
         gamma=args.tversky_gamma,
     )
+    bce = F.binary_cross_entropy_with_logits(logits, target)
 
-    loss = args.dice_weight * d_loss + args.focal_weight * ft_loss
-    return loss, d_loss, ft_loss
-
-
+    loss = args.dice_weight * d_loss + args.focal_weight * ft_loss + args.bce_weight * bce
+    return loss, d_loss, ft_loss, bce
 
 
 
@@ -332,7 +332,7 @@ def evaluate(args, model, data_loader):
                 logit_full[:, sd:sd+P, sh:sh+P, sw:sw+P] += logits[j] * gaussian_weight
                 weight_full[:, sd:sd+P, sh:sh+P, sw:sw+P] += gaussian_weight
 
-        logit_full = logit_full / weight_full.clamp_min(1.0)
+        logit_full = logit_full / weight_full.clamp_min(1e-6)
 
         prob = torch.sigmoid(logit_full / args.temperature)
         pred = (prob > 0.5).float()
@@ -429,10 +429,12 @@ def train(args, model, discriminator, data_loader, optimizer, optimizer_d,
                 p = patches[i:i + args.minibatch_size]
                 y = labels[i:i + args.minibatch_size]
                 c = coords[i:i + args.minibatch_size]
+                g = global_x[i:i + args.minibatch_size]
 
                 with torch.no_grad():
-                    logits = model(p, c)
-                    fake_mask = torch.sigmoid(logits)
+                    logits = model(p, c, g)
+                    # fake_mask = torch.sigmoid(logits)
+                    fake_mask = torch.sigmoid(logits / args.temperature)
 
                 real_logits = discriminator(p, y)
                 fake_logits = discriminator(p, fake_mask.detach())
@@ -463,13 +465,8 @@ def train(args, model, discriminator, data_loader, optimizer, optimizer_d,
 
             g = global_x[i:i + args.minibatch_size]
 
-            # --- get latent ---
-            z = model.encode(p)
-            z = model.apply_position_conditioning(z, c)
-
-            # --- segmentation ---
+            z = model.get_conditioned_latent(p, c, g)
             logits = model.decode(z)
-            seg_loss, d_loss_seg, f_loss_seg = compute_seg_loss(logits, y, args)
 
             # --- contrastive ---
             z_pool = z.mean(dim=(2, 3, 4))   # [B, latent_dim]
@@ -483,7 +480,7 @@ def train(args, model, discriminator, data_loader, optimizer, optimizer_d,
             coord_pred = model.predict_coord(z)
             coord_loss = F.mse_loss(coord_pred, c)
 
-            seg_loss, d_loss_seg, f_loss_seg = compute_seg_loss(logits, y, args)
+            seg_loss, d_loss_seg, f_loss_seg, bce = compute_seg_loss(logits, y, args)
             loss = seg_loss + args.contrast_weight * contrast_loss + args.coord_weight * coord_loss
 
             g_loss = torch.zeros((), device=args.device)
@@ -521,7 +518,7 @@ def train(args, model, discriminator, data_loader, optimizer, optimizer_d,
         coord_loss_avg = coord_loss_accum / n_minibatches
 
 
-        total_loss_avg = seg_loss_avg + args.g_loss_weight * g_loss_avg
+        total_loss_avg = seg_loss_avg + args.g_loss_weight * g_loss_avg + args.contrast_weight * contrast_loss_avg + args.coord_weight * coord_loss_avg
 
         total_loss += total_loss_avg
         total_seg_loss += seg_loss_avg

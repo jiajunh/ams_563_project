@@ -373,7 +373,19 @@ class PatchSegmentation3DWithGlobal(nn.Module):
     def predict_coord(self, z):
         z_pool = z.mean(dim=(2, 3, 4))
         return self.coord_head(z_pool)
+        
+    def get_conditioned_latent(self, x, coords, global_x=None):
+        z = self.encode(x)
+        z = self.apply_position_conditioning(z, coords)
 
+        if global_x is not None:
+            gb = self.global_encoder(global_x)
+            gamma_beta = self.global_mlp(gb)
+            gamma, beta = gamma_beta.chunk(2, dim=1)
+            gamma = gamma[:, :, None, None, None]
+            beta = beta[:, :, None, None, None]
+            z = z * (1.0 + gamma) + beta
+        return z
 
     def forward(self, x, coords, global_x=None):
         z = self.encode(x)
