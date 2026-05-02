@@ -58,8 +58,8 @@ def parse_args():
     parser.add_argument("--latent_dim", type=int, default=16)
 
     parser.add_argument("--g_loss_weight", type=float, default=1)
-    # parser.add_argument("--focal_gamma", type=float, default=2.0)
-    # parser.add_argument("--focal_alpha", type=float, default=0.6)
+    parser.add_argument("--focal_gamma", type=float, default=2.0)
+    parser.add_argument("--focal_alpha", type=float, default=0.6)
     parser.add_argument("--tversky_alpha", type=float, default=0.4)
     parser.add_argument("--tversky_beta", type=float, default=0.6)
     parser.add_argument("--tversky_gamma", type=float, default=1.0)
@@ -200,15 +200,14 @@ def dice_loss(logits, target, eps=1e-6):
     return 1.0 - dice.mean()
 
 
-# def focal_loss(logits, target, alpha=0.95, gamma=2.0):
-#     bce = F.binary_cross_entropy_with_logits(logits, target, reduction="none")
-#     prob = torch.sigmoid(logits)
+def focal_loss(logits, target, alpha=0.6, gamma=2.0):
+    bce = F.binary_cross_entropy_with_logits(logits, target, reduction="none")
+    prob = torch.sigmoid(logits)
+    pt = prob * target + (1.0 - prob) * (1.0 - target)
+    alpha_t = alpha * target + (1.0 - alpha) * (1.0 - target)
+    loss = alpha_t * (1.0 - pt).pow(gamma) * bce
+    return loss.mean()
 
-#     pt = prob * target + (1.0 - prob) * (1.0 - target)
-#     alpha_t = alpha * target + (1.0 - alpha) * (1.0 - target)
-
-#     loss = alpha_t * (1.0 - pt).pow(gamma) * bce
-#     return loss.mean()
 
 def focal_tversky_loss(logits, target, alpha=0.4, beta=0.6, gamma=1.0, eps=1e-6):
     prob = torch.sigmoid(logits)
@@ -253,7 +252,8 @@ def compute_seg_loss(logits, target, args):
         beta=args.tversky_beta,
         gamma=args.tversky_gamma,
     )
-    bce = F.binary_cross_entropy_with_logits(logits, target)
+    # bce = F.binary_cross_entropy_with_logits(logits, target)
+    bce = focal_loss(logits, target, alpha=args.focal_alpha, gamma=args.focal_gamma)
 
     loss = args.dice_weight * d_loss + args.focal_weight * ft_loss + args.bce_weight * bce
     return loss, d_loss, ft_loss, bce
@@ -390,6 +390,7 @@ def train(args, model, discriminator, data_loader, optimizer, optimizer_d,
     total_d_loss = 0.0
     total_contrast_loss = 0.0
     total_coord_loss = 0.0
+    total_bce_loss = 0.0
     n_updates = 0
 
     pbar = tqdm(data_loader, desc=f"Epoch {epoch+1}/{args.epochs}")
@@ -457,6 +458,7 @@ def train(args, model, discriminator, data_loader, optimizer, optimizer_d,
         g_loss_accum = 0.0
         contrast_loss_accum = 0.0
         coord_loss_accum = 0.0
+        bce_loss_accum = 0.0
 
         for i in range(0, n_total, args.minibatch_size):
             p = patches[i:i + args.minibatch_size]
@@ -502,6 +504,7 @@ def train(args, model, discriminator, data_loader, optimizer, optimizer_d,
             focal_loss_accum += f_loss_seg.item()
             contrast_loss_accum += contrast_loss.item()
             coord_loss_accum += coord_loss.item()
+            bce_loss_accum += bce.item()
             g_loss_accum += g_loss.item() if args.use_gan else 0.0
 
         nn.utils.clip_grad_norm_(model.parameters(), args.grad_clip)
@@ -516,7 +519,7 @@ def train(args, model, discriminator, data_loader, optimizer, optimizer_d,
         d_loss_avg = d_loss_accum / n_minibatches if args.use_gan else 0.0
         contrast_loss_avg = contrast_loss_accum / n_minibatches
         coord_loss_avg = coord_loss_accum / n_minibatches
-
+        bce_loss_avg = bce_loss_accum / n_minibatches
 
         total_loss_avg = seg_loss_avg + args.g_loss_weight * g_loss_avg + args.contrast_weight * contrast_loss_avg + args.coord_weight * coord_loss_avg
 
@@ -528,6 +531,7 @@ def train(args, model, discriminator, data_loader, optimizer, optimizer_d,
         total_d_loss += d_loss_avg
         total_coord_loss += coord_loss_avg
         total_contrast_loss += contrast_loss_avg
+        total_bce_loss += bce_loss_avg
         n_updates += 1
 
         pbar.set_postfix(
@@ -536,6 +540,7 @@ def train(args, model, discriminator, data_loader, optimizer, optimizer_d,
             focal=f"{focal_loss_avg:.4f}",
             contrast=f"{contrast_loss_avg:.4f}",
             coord=f"{coord_loss_avg:.4f}",
+            bce=f"{bce_loss_avg:.4f}",
             g=f"{g_loss_avg:.4f}",
             d=f"{d_loss_avg:.4f}",
             lr=f"{optimizer.param_groups[0]['lr']:.2e}",
@@ -550,6 +555,7 @@ def train(args, model, discriminator, data_loader, optimizer, optimizer_d,
         "focal_loss": total_focal_loss / n,
         "contrast_loss": total_contrast_loss / n,
         "coord_loss": total_coord_loss / n,
+        "bce": total_bce_loss / n,
         "g_loss": total_g_loss / n,
         "d_loss": total_d_loss / n,
     }
@@ -627,6 +633,7 @@ if __name__ == "__main__":
             "focal_loss": losses["focal_loss"],
             "contrast_loss": losses["contrast_loss"],
             "coord_loss": losses["coord_loss"],
+            "bce_loss": losses["bce"],
             "g_loss": losses["g_loss"],
             "d_loss": losses["d_loss"],
         })
